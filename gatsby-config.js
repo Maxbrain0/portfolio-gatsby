@@ -15,18 +15,9 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-typography`,
       options: {
-        fonts: [
-          {
-            family: `Oswald`,
-            variants: [`400`, `700`],
-          },
-          {
-            family: `Open Sans`,
-          },
-        ],
-        formats: ["woff", "woff2"],
+        pathToConfigModule: `src/util/typography`,
       },
     },
   ],
