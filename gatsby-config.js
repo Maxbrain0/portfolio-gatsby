@@ -14,5 +14,20 @@ module.exports = {
         path: `./src/data`,
       },
     },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Oswald`,
+            variants: [`400`, `700`],
+          },
+          {
+            family: `Open Sans`,
+          },
+        ],
+        formats: ["woff", "woff2"],
+      },
+    },
   ],
 }
