@@ -1,3 +1,4 @@
 {
-  "prettier.eslintIntegration": false
+  "prettier.eslintIntegration": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
