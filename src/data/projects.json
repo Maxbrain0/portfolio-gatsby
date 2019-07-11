@@ -1,0 +1,13 @@
+[
+  {
+    "title": "Smith Plot",
+    "url": "https://www.smithplot.com",
+    "github-url": "https://github.com/Maxbrain0/smith-plot"
+  },
+  {
+    "title": "Nuxt Ghost Starter",
+    "url": "https://blog.jacobsngoodwin.com",
+    "github-url": "https://github.com/Maxbrain0/nuxt-ghost-starter",
+    "technology-icons": ["nuxt"]
+  }
+]
