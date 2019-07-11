@@ -1,0 +1,14 @@
+.main {
+}
+
+.sidebar {
+  width: 200px;
+  height: 100%;
+  z-index: 1;
+  border-right: 1px solid #bdbdbd;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}

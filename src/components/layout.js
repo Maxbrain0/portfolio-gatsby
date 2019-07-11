@@ -1,12 +1,15 @@
 import React, { Component } from "react"
+
+import "./layout.scss"
 import "../util/fontAwesome"
+import Sidebar from "./sidedbar"
 
 class Layout extends Component {
   render() {
     return (
       <div>
-        <h1>Main Layout</h1>
-        {this.props.children}
+        <Sidebar className="sidebar" />
+        <div className="main">{this.props.children}</div>
       </div>
     )
   }
