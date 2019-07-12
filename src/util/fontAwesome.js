@@ -8,5 +8,6 @@ import {
   faEnvelope,
   faBriefcase,
 } from "@fortawesome/free-solid-svg-icons"
+import { faVuejs } from "@fortawesome/free-brands-svg-icons"
 
-library.add(faAddressCard, faUserTie, faEnvelope, faBriefcase)
+library.add(faAddressCard, faUserTie, faEnvelope, faBriefcase, faVuejs)

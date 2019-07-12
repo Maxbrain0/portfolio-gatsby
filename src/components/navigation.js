@@ -1,7 +1,9 @@
 import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 
+import NavLink from "./ui/navlink"
 import styles from "./navigation.module.scss"
+import { colorFromIndex } from "../util/color"
 
 const navigation = props => {
   const data = useStaticQuery(graphql`
@@ -17,11 +19,16 @@ const navigation = props => {
     }
   `)
 
-  const navLinks = data.allNavLinksJson.edges.map(({ node }) => {
+  const navLinks = data.allNavLinksJson.edges.map(({ node }, index) => {
+    const color = colorFromIndex(index + 1)
+    console.log(color)
     return (
-      <Link key={node.label} to={node.path} className={styles.navLink}>
-        {node.label}
-      </Link>
+      <NavLink
+        key={node.label}
+        path={node.path}
+        label={node.label}
+        color={color}
+      />
     )
   })
   return (
