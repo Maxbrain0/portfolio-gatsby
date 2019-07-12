@@ -11,8 +11,6 @@ const navigation = props => {
           node {
             path
             label
-            icon
-            color
           }
         }
       }
