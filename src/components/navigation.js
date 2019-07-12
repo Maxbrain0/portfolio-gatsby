@@ -2,6 +2,8 @@ import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
+import styles from "./navigation.module.scss"
+
 const navigation = props => {
   const data = useStaticQuery(graphql`
     query {
@@ -31,7 +33,7 @@ const navigation = props => {
       <div>
         <Link to="/">Home/Logo</Link>
       </div>
-      <div>{navLinks}</div>
+      <div className={styles.navLinks}>{navLinks}</div>
     </div>
   )
 }

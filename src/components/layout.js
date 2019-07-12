@@ -1,6 +1,6 @@
 import React from "react"
 
-import "./layout.scss"
+import "../styles/main.scss"
 import "../util/fontAwesome"
 import Navigation from "./navigation"
 

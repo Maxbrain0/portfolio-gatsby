@@ -1,8 +1,14 @@
+@import "variables";
+
 .navigation {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 0.5em 1em;
+
+  & a {
+    color: green;
+  }
 }
 
 .content {
