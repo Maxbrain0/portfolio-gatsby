@@ -1,14 +1,31 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, useStaticQuery, graphql } from "gatsby"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 const navigation = props => {
-  const navLinks = props.navItems.map(item => (
-    <span key={item.label}>
-      <FontAwesomeIcon icon={item.icon} />
-      <Link to={item.path}>{item.label}</Link>
-    </span>
-  ))
+  const data = useStaticQuery(graphql`
+    query {
+      allNavLinksJson {
+        edges {
+          node {
+            path
+            label
+            icon
+            color
+          }
+        }
+      }
+    }
+  `)
+
+  const navLinks = data.allNavLinksJson.edges.map(({ node }) => {
+    return (
+      <span key={node.label}>
+        <FontAwesomeIcon icon={node.icon} color={node.color} />
+        <Link to={node.path}>{node.label}</Link>
+      </span>
+    )
+  })
   return (
     <div className={props.className}>
       <div>

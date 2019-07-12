@@ -2,16 +2,19 @@
   {
     "path": "/portfolio",
     "label": "Portfolio",
-    "icon": ["fas", "address-card"]
+    "icon": ["fas", "briefcase"],
+    "color": "red"
   },
   {
     "path": "/resume",
     "label": "Resume",
-    "icon": ["fas", "address-card"]
+    "icon": ["fas", "user-tie"],
+    "color": "orange"
   },
   {
     "path": "/contact",
     "label": "Contacts",
-    "icon": ["fas", "address-card"]
+    "icon": ["fas", "envelope"],
+    "color": "green"
   }
 ]

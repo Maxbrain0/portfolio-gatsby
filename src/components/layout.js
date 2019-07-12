@@ -1,33 +1,18 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
 
 import "./layout.scss"
 import "../util/fontAwesome"
 import Navigation from "./navigation"
 
-const layout = props => {
-  const data = useStaticQuery(graphql`
-    query {
-      allNavLinksJson {
-        edges {
-          node {
-            path
-            label
-            icon
-          }
-        }
-      }
-    }
-  `)
-
-  const navLinks = data.allNavLinksJson.edges.map(edge => edge.node)
-
-  return (
-    <div className="main">
-      <Navigation className="navigation" navItems={navLinks} />
-      <div className="content">{props.children}</div>
-    </div>
-  )
+class Layout extends React.Component {
+  render() {
+    return (
+      <div className="main">
+        <Navigation className="navigation" />
+        <div className="content">{this.props.children}</div>
+      </div>
+    )
+  }
 }
 
-export default layout
+export default Layout
