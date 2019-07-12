@@ -1,0 +1,17 @@
+[
+  {
+    "path": "/portfolio",
+    "label": "Portfolio",
+    "icon": ["fas", "address-card"]
+  },
+  {
+    "path": "/resume",
+    "label": "Resume",
+    "icon": ["fas", "address-card"]
+  },
+  {
+    "path": "/contact",
+    "label": "Contacts",
+    "icon": ["fas", "address-card"]
+  }
+]

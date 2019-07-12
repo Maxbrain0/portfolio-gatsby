@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 const navigation = props => {
   const navLinks = props.navItems.map(item => (
-    <span>
+    <span key={item.label}>
       <FontAwesomeIcon icon={item.icon} />
       <Link to={item.path}>{item.label}</Link>
     </span>
