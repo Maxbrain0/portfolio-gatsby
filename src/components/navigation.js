@@ -21,7 +21,7 @@ const navigation = props => {
 
   const navLinks = data.allNavLinksJson.edges.map(({ node }, index) => {
     const color = colorFromIndex(index + 1)
-    console.log(color)
+
     return (
       <NavLink
         key={node.label}
