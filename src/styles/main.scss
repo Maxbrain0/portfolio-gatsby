@@ -7,7 +7,9 @@
   padding: 0.5em 1em;
 
   & a {
-    color: green;
+    color: $bodyColor;
+    font-weight: 700;
+    text-decoration: none;
   }
 }
 
