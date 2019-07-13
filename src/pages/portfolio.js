@@ -14,7 +14,7 @@ export default ({ data }) => {
 
   return (
     <Layout>
-      <h2>Portfolio</h2>
+      <h1>Portfolio</h1>
       {icons}
     </Layout>
   )

@@ -26,17 +26,11 @@
 
 .content {
   margin: 2em;
+  animation: fadein 0.7s;
+  animation-timing-function: ease-in;
 }
 
-.color1 {
-  color: $color1
-}
-.color2 {
-  color: $color2
-}
-.color3 {
-  color: $color3
-}
-.color4 {
-  color: $color4
+@keyframes fadein {
+  from { opacity: 0; transform: translateX(-50px)}
+  to   { opacity: 1; transform: translateX(0)}
 }
