@@ -7,12 +7,13 @@ const navLink = props => (
   <Link
     to={props.path}
     style={{ color: props.color }}
-    activeClassName={styles.active}
+    className={styles.link}
+    activeClassName={styles.activeLink}
   >
     <div className={styles.navLabel}>{props.label}</div>
     <div
       style={{ backgroundColor: props.color }}
-      className={styles.underlined}
+      className={styles.underline}
     ></div>
   </Link>
 )

@@ -1,12 +1,31 @@
-.nav-label {
-  &:hover {
-    opacity: 0.8;
-    transition: opacity 0.5s
+.link {
+  .nav-label {
+    &:hover {
+      opacity: 0.8;
+      transition: opacity 0.5s
+    }
+  }
+  
+  .underline {
+    height: 3px;
+    width: 0;
+    margin: auto;
+  }
+  &.active-link {
+    .underline {
+      width: 100%;
+      animation-duration: 0.5s;
+      animation-name: slidein;
+    }
   }
 }
 
-.active {
-  & .underlined {
-    height: 3px;
+
+@keyframes slidein {
+  from {
+    width: 0%; 
+  }
+  to {
+    width: 100%;
   }
 }
