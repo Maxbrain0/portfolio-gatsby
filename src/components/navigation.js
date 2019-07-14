@@ -32,12 +32,12 @@ const navigation = props => {
     )
   })
   return (
-    <div className={props.className}>
+    <nav className={props.className}>
       <div className={styles.brand}>
         <Link to="/">Home/Logo</Link>
       </div>
       <div className={styles.navLinks}>{navLinks}</div>
-    </div>
+    </nav>
   )
 }
 
