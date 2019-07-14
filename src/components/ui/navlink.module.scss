@@ -1,11 +1,13 @@
+@import "../../styles/variables";
+
 .link {
   .nav-label {
     &:hover {
       opacity: 0.8;
-      transition: opacity 0.5s
+      transition: opacity $hover-duration;
     }
   }
-  
+
   .underline {
     height: 3px;
     width: 0;
@@ -14,17 +16,16 @@
   &.active-link {
     .underline {
       width: 100%;
-      animation-duration: 0.7s;
+      animation-duration: $animation-duration;
       animation-name: slidein;
-      animation-timing-function: ease-in;
+      animation-timing-function: ease-out;
     }
   }
 }
 
-
 @keyframes slidein {
   from {
-    width: 0%; 
+    width: 0%;
   }
   to {
     width: 100%;
