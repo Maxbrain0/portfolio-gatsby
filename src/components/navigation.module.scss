@@ -1,5 +1,21 @@
 @import "../styles/variables";
 
+.navigation-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em 1em;
+
+  @media screen and (max-width: $mobile-width) {
+    flex-direction: column;
+    padding: 0.5em 0.5em;
+    & a {
+      padding: 0em 0.5em;
+    }
+  }
+}
+
 .brand {
   a {
     font-size: 1.5em;
@@ -9,7 +25,7 @@
 
 .nav-links {
   display: flex;
-  @media screen and (max-width: $mobile-width){
-    margin-top: 1em;
+  @media screen and (max-width: $mobile-width) {
+    margin-top: 2px; // only very small margin needed
   }
 }
