@@ -1,8 +1,8 @@
 import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 
-import NavLink from "./ui/navlink"
 import Icon from "./ui/icon"
+import NavLink from "./ui/navlink"
 import styles from "./navigation.module.scss"
 import { colorFromIndex } from "../util/color"
 
@@ -35,14 +35,15 @@ const navigation = props => {
   return (
     <nav className={props.className}>
       <div className={styles.navigationFlex}>
-        <Link to="/" className={styles.brand}>
-          <div className={styles.logo}>
+        <div className={styles.brand}>
+          <Link to="/" className={styles.logo}>
             <Icon type="brand" width={32} height={32} />
-          </div>
+          </Link>
           <div className={styles.home}>
             <NavLink path="/" label="Home" color="#000000bb" />
           </div>
-        </Link>
+        </div>
+
         <div className={styles.navLinks}>{navLinks}</div>
       </div>
     </nav>
