@@ -2,18 +2,17 @@ import React from "react"
 import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
+import Project from "../components/project"
 
 export default ({ data }) => {
-  // const icons = data.allProjectsJson.edges.map((edge, index) => {
-  //   const lib = edge.node.technology_icons[0].lib
-  //   const name = edge.node.technology_icons[0].name
+  const projectData = data.allProjectsJson.edges
 
-  //   return <FontAwesomeIcon key={index} icon={[lib, name]} />
-  // })
+  const projects = projectData.map(({ project }) => <Project />)
 
   return (
     <Layout>
       <h1>Projects</h1>
+      {projects}
       <h1>Skills</h1>
     </Layout>
   )
