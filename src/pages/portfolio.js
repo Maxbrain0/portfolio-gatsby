@@ -7,7 +7,9 @@ import Project from "../components/project"
 export default ({ data }) => {
   const projectData = data.allProjectsJson.edges
 
-  const projects = projectData.map(({ project }) => <Project />)
+  const projects = projectData.map(({ node }) => (
+    <Project key={node.url} project={node} />
+  ))
 
   return (
     <Layout>
