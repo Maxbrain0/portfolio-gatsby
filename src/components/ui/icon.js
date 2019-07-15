@@ -1,7 +1,8 @@
 import React, { Component } from "react"
 
 // icon imports
-import VueIcon from "../assets/svg/vue.svg"
+import BrandIcon from "../../assets/svg/brand.svg"
+import VueIcon from "../../assets/svg/vue.svg"
 
 class Icon extends Component {
   static defaultProps = {
@@ -9,6 +10,7 @@ class Icon extends Component {
     height: 32,
   }
   components = {
+    brand: BrandIcon,
     vue: VueIcon,
   }
   render() {
