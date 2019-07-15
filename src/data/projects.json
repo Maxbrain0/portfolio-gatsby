@@ -1,14 +1,37 @@
 [
   {
     "title": "Smith Plot",
+    "description": "",
     "url": "https://www.smithplot.com",
-    "github-url": "https://github.com/Maxbrain0/smith-plot",
-    "technology-icons": [{ "lib": "fab", "name": "vuejs" }]
+    "github": "https://github.com/Maxbrain0/smith-plot",
+    "icons": ["vue"]
+  },
+  {
+    "title": "RF-Network",
+    "description": "",
+    "url": "https://www.npmjs.com/package/rf-network",
+    "github": "https://github.com/Maxbrain0/rf-network",
+    "icons": ["typescript"]
   },
   {
     "title": "Nuxt Ghost Starter",
+    "description": "",
     "url": "https://blog.jacobsngoodwin.com",
-    "github-url": "https://github.com/Maxbrain0/nuxt-ghost-starter",
-    "technology-icons": [{ "lib": "fab", "name": "vuejs" }]
+    "github": "https://github.com/Maxbrain0/nuxt-ghost-starter",
+    "icons": ["nuxt", "vue"]
+  },
+  {
+    "title": "This Fine Portfolio",
+    "description": "",
+    "url": "https://professional.jacobsngoodwin.com",
+    "github": "https://github.com/Maxbrain0/portfolio-gatsby",
+    "icons": ["gatsby", "react"]
+  },
+  {
+    "title": "JSNG - Ghost Blog Theme",
+    "description": "",
+    "url": "https://professional.jacobsngoodwin.com",
+    "github": "https://github.com/Maxbrain0/jsng",
+    "icons": ["ghost", "parcel", "handlebars", "scss"]
   }
 ]
