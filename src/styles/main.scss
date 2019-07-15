@@ -11,9 +11,7 @@
 
   & a {
     padding: 0.5em 0.5em;
-    color: $bodyColor;
     font-weight: 700;
-    text-decoration: none;
   }
 }
 
@@ -36,5 +34,16 @@
     opacity: 1;
     // transform: translateX(0);
     // transform: scale(1);
+  }
+}
+
+a {
+  color: $bodyColor;
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+  &:visited {
+    text-decoration: none;
   }
 }
