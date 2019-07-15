@@ -39,8 +39,9 @@ const navigation = props => {
           <div className={styles.logo}>
             <Icon type="brand" width={32} height={32} />
           </div>
-          {/* <div className={styles.home}>Home</div> */}
-          <NavLink path="/" label="Home" color="#000000bb" />
+          <div className={styles.home}>
+            <NavLink path="/" label="Home" color="#000000bb" />
+          </div>
         </Link>
         <div className={styles.navLinks}>{navLinks}</div>
       </div>

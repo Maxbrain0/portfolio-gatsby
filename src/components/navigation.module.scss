@@ -40,3 +40,9 @@
     margin-right: 0px;
   }
 }
+
+.home {
+  @media screen and (max-width: $mobile-width) {
+    display: none;
+  }
+}
