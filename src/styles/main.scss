@@ -59,4 +59,17 @@ h1 {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   box-shadow: 0px 2px 3px 2px adjust-color($headerColor, $alpha: -0.7);
+
+  &:nth-of-type(4n + 1) {
+    border-bottom-color: $color1;
+  }
+  &:nth-of-type(4n + 2) {
+    border-bottom-color: $color2;
+  }
+  &:nth-of-type(4n + 3) {
+    border-bottom-color: $color3;
+  }
+  &:nth-of-type(4n + 4) {
+    border-bottom-color: $color4;
+  }
 }
