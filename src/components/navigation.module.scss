@@ -35,6 +35,12 @@
 
 .logo {
   padding-right: 0.5em;
+  height: 48px;
+
+  svg {
+    height: 100%;
+    width: 100%;
+  }
 
   @media screen and (max-width: $mobile-width) {
     margin-right: 0px;

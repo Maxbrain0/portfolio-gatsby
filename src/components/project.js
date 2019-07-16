@@ -1,12 +1,20 @@
 import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+
+import Icon from "./ui/icon"
 import styles from "./project.module.scss"
 
 const project = props => {
+  const icons = props.project.icons.map(icon => (
+    <Icon key={icon} type={icon} width={36} height={36} />
+  ))
+
   return (
     <div className={styles.project}>
-      <h2>{props.project.title}</h2>
-      <p>{props.project.description}</p>
+      <div className={styles.title}>
+        <h2>{props.project.title}</h2>
+        <p>{props.project.description}</p>
+      </div>
 
       <div className={styles.externalLinks}>
         <a
@@ -27,7 +35,10 @@ const project = props => {
         </a>
       </div>
 
-      <div className={styles.techLogos}>Logos here</div>
+      <div className={styles.techLogos}>
+        <h3>Built With</h3>
+        {icons}
+      </div>
     </div>
   )
 }

@@ -4,25 +4,25 @@
     "description": "Single-page application written with D3.js and Vue for plotting and comparing RF-network measurement data",
     "url": "https://www.smithplot.com",
     "github": "https://github.com/Maxbrain0/smith-plot",
-    "icons": ["vue"]
+    "icons": ["vue", "d3"]
   },
   {
     "title": "RF-Network",
     "description": "Node module, written in Typescript, for parsing RF measurement data into a Network class",
     "url": "https://www.npmjs.com/package/rf-network",
     "github": "https://github.com/Maxbrain0/rf-network",
-    "icons": ["typescript"]
+    "icons": ["typescript", "npm"]
   },
   {
     "title": "Nuxt Ghost Starter",
     "description": "A starter project for building a server-side rendered or statically generated site from Ghost blog data",
     "url": "https://blog.jacobsngoodwin.com",
     "github": "https://github.com/Maxbrain0/nuxt-ghost-starter",
-    "icons": ["nuxt", "vue"]
+    "icons": ["nuxt", "vue", "ghost"]
   },
   {
-    "title": "This Fine Portfolio",
-    "description": "A simple portfolio written in GatsbyJS",
+    "title": "Gatsby Portfolio",
+    "description": "This fine portfolio page built with Gatsby JS",
     "url": "https://professional.jacobsngoodwin.com",
     "github": "https://github.com/Maxbrain0/portfolio-gatsby",
     "icons": ["gatsby", "react"]
@@ -32,6 +32,6 @@
     "description": "Handlebars-templated theme written for the Ghost blogging platform",
     "url": "https://www.jacobsngoodwin.com",
     "github": "https://github.com/Maxbrain0/jsng",
-    "icons": ["ghost", "parcel", "handlebars", "scss"]
+    "icons": ["vue"]
   }
 ]

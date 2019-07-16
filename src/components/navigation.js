@@ -37,7 +37,8 @@ const navigation = props => {
       <div className={styles.navigationFlex}>
         <div className={styles.brand}>
           <Link to="/" className={styles.logo}>
-            <Icon type="brand" width={32} height={32} />
+            {/* <Icon type="brand" width={32} height={32} /> */}
+            <Icon type="brand" />
           </Link>
           <div className={styles.home}>
             <NavLink path="/" label="Home" color="#000000bb" />
