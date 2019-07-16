@@ -2,12 +2,7 @@
 import "@fortawesome/fontawesome-svg-core/styles.css"
 
 import { library } from "@fortawesome/fontawesome-svg-core"
-import {
-  faAddressCard,
-  faUserTie,
-  faEnvelope,
-  faBriefcase,
-} from "@fortawesome/free-solid-svg-icons"
-import { faVuejs } from "@fortawesome/free-brands-svg-icons"
+import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons"
+import { faGithub } from "@fortawesome/free-brands-svg-icons"
 
-library.add(faAddressCard, faUserTie, faEnvelope, faBriefcase, faVuejs)
+library.add(faExternalLinkAlt, faGithub)

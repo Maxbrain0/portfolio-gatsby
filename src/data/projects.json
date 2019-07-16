@@ -1,7 +1,7 @@
 [
   {
     "title": "Smith Plot",
-    "description": "Single-page Application written with d3 and Vuejs for plotting and comparing RF-network measurement data",
+    "description": "Single-page application written with D3.js and Vue for plotting and comparing RF-network measurement data",
     "url": "https://www.smithplot.com",
     "github": "https://github.com/Maxbrain0/smith-plot",
     "icons": ["vue"]

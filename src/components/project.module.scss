@@ -1,0 +1,31 @@
+@import "../styles/variables";
+
+.project {
+  margin-bottom: 3em;
+}
+
+.external-links {
+  text-align: center;
+  a {
+    padding: 0 0.5em;
+  }
+  .link {
+    color: $color2;
+    &:hover {
+      color: adjust-color($color2, $alpha: -0.2);
+      transition: color $hover-duration;
+    }
+  }
+
+  .github {
+    color: #6e5494;
+    &:hover {
+      color: adjust-color(#6e5494, $alpha: -0.2);
+      transition: color $hover-duration;
+    }
+  }
+}
+
+.tech-logos {
+  margin-top: 1em;
+}
