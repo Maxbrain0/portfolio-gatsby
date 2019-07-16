@@ -18,7 +18,7 @@ import VuetifyIcon from "../../assets/svg/vuetify.svg"
 
 const Icon = props => {
   const components = {
-    brand: { icon: BrandIcon },
+    brand: { icon: BrandIcon, url: null },
     bulma: { icon: BulmaIcon, url: "https://bulma.io/" },
     d3: { icon: D3Icon, url: "https://d3js.org/" },
     gatsby: { icon: GatsbyIcon, url: "https://www.gatsbyjs.org/" },
@@ -41,6 +41,11 @@ const Icon = props => {
   if (!IconName) {
     return null
   }
+
+  if (!components[props.type].url) {
+    return <IconName className={props.className} />
+  }
+
   // get passed down classes
   return (
     <a
