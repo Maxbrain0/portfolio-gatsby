@@ -1,5 +1,5 @@
 const colorFromIndex = index => {
-  const colors = ["#002d5b", "#f44800", "#00af37", "#45009e"]
+  const colors = ["rgba(0, 0, 0, 0.733)", "#f44800", "#00af37", "#45009e"]
   return colors[index % colors.length]
 }
 
