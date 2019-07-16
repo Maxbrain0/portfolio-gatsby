@@ -1,14 +1,14 @@
 [
   {
-    "path": "/portfolio",
+    "path": "/portfolio/",
     "label": "Portfolio"
   },
   {
-    "path": "/resume",
+    "path": "/resume/",
     "label": "Resume"
   },
   {
-    "path": "/contact",
+    "path": "/contact/",
     "label": "Contact"
   }
 ]
