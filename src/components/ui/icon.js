@@ -7,6 +7,7 @@ import D3Icon from "../../assets/svg/d3js-icon.svg"
 import GatsbyIcon from "../../assets/svg/gatsbyjs-icon.svg"
 import GhostIcon from "../../assets/svg/ghost-tile.svg"
 import HandlebarsIcon from "../../assets/svg/handlebarsjs-icon.svg"
+import JavascriptIcon from "../../assets/svg/javascript.svg"
 import NpmIcon from "../../assets/svg/npmjs-ar21.svg"
 import NuxtIcon from "../../assets/svg/nuxt-square.svg"
 import ParcelIcon from "../../assets/svg/parceljs-rect.svg"
@@ -24,6 +25,10 @@ const Icon = props => {
     gatsby: { icon: GatsbyIcon, url: "https://www.gatsbyjs.org/" },
     ghost: { icon: GhostIcon, url: "https://ghost.org/" },
     handlebars: { icon: HandlebarsIcon, url: "https://handlebarsjs.com/" },
+    javascript: {
+      icon: JavascriptIcon,
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    },
     npm: { icon: NpmIcon, url: "https://www.npmjs.com/" },
     nuxt: { icon: NuxtIcon, url: "https://nuxtjs.org/" },
     parcel: { icon: ParcelIcon, url: "https://parceljs.org/" },
