@@ -15,8 +15,6 @@ export default ({ data }) => {
     <Layout>
       <h1>Projects</h1>
       {projects}
-      <br />
-      <h1>Skills</h1>
     </Layout>
   )
 }
