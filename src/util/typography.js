@@ -1,12 +1,12 @@
 import Typography from "typography"
 
 const typography = new Typography({
-  baseFontSize: "18px",
+  baseFontSize: "20px",
   baseLineHeight: 1.6,
   headerFontFamily: ["Oswald", "Arial", "sans-serif"],
   headerWeight: 500,
-  headerColor: "#000000bb",
-  bodyColor: "#000000dd",
+  headerColor: "rgba(0, 0, 0, 0.733)",
+  bodyColor: "rgba(0, 0, 0, 0.867)",
   bodyFontFamily: ["Lato", "Arial", "sans-serif"],
   bodyWeight: 400,
   boldWeight: 700,

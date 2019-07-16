@@ -5,9 +5,7 @@ import Icon from "./ui/icon"
 import styles from "./project.module.scss"
 
 const project = props => {
-  const icons = props.project.icons.map(icon => (
-    <Icon key={icon} type={icon} width={36} height={36} />
-  ))
+  const icons = props.project.icons.map(icon => <Icon key={icon} type={icon} />)
 
   return (
     <div className={styles.project}>
@@ -36,8 +34,8 @@ const project = props => {
       </div>
 
       <div className={styles.techLogos}>
-        <h3>Built With</h3>
-        {icons}
+        <h3>Made with</h3>
+        <div className={styles.iconContainer}>{icons}</div>
       </div>
     </div>
   )
