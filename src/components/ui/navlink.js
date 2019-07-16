@@ -7,7 +7,7 @@ const navLink = props => (
   <Link
     to={props.path}
     style={{ color: props.color }}
-    className={styles.link}
+    className={styles.link + " " + props.className}
     activeClassName={styles.activeLink}
   >
     <div className={styles.navLabel}>{props.label}</div>
