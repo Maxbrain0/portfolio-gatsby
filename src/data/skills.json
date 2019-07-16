@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "skill": "Javascript",
+    "level": 8,
+    "icon": "js"
+  },
+  {
+    "skill": "Vue",
+    "level": 8,
+    "icon": "vue"
+  }
+]

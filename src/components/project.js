@@ -8,7 +8,7 @@ const project = props => {
   const icons = props.project.icons.map(icon => <Icon key={icon} type={icon} />)
 
   return (
-    <div className={styles.project}>
+    <div className={`${styles.project} card`}>
       <div className={styles.title}>
         <h2>{props.project.title}</h2>
         <p>{props.project.description}</p>

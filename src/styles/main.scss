@@ -20,6 +20,10 @@
   padding: 0 2.5em;
   animation: fadein $animation-duration;
   animation-timing-function: ease-in;
+
+  @media screen and (max-width: $mobile-width) {
+    padding: 0 0.75em;
+  }
 }
 
 @keyframes fadein {
@@ -45,4 +49,14 @@ a {
   &:visited {
     text-decoration: none;
   }
+}
+
+h1 {
+  text-align: center;
+}
+
+.card {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  box-shadow: 0px 2px 3px 2px adjust-color($headerColor, $alpha: -0.7);
 }
