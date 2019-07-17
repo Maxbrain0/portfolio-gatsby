@@ -9,7 +9,7 @@
   },
   {
     "title": "RF-Network",
-    "imgRelPath": null,
+    "imgName": "SmithPlot2.png",
     "description": "Node module, written in Typescript, for parsing RF measurement data into a Network class",
     "url": "https://www.npmjs.com/package/rf-network",
     "github": "https://github.com/Maxbrain0/rf-network",
@@ -17,7 +17,7 @@
   },
   {
     "title": "Nuxt Ghost Starter",
-    "imgRelPath": null,
+    "imgName": null,
     "description": "A starter project for building a server-side rendered or statically generated site from Ghost blog data",
     "url": "https://blog.jacobsngoodwin.com",
     "github": "https://github.com/Maxbrain0/nuxt-ghost-starter",
@@ -25,7 +25,7 @@
   },
   {
     "title": "Gatsby Portfolio",
-    "imgRelPath": null,
+    "imgName": null,
     "description": "This fine portfolio page built with Gatsby JS",
     "url": "https://professional.jacobsngoodwin.com",
     "github": "https://github.com/Maxbrain0/portfolio-gatsby",
@@ -33,7 +33,7 @@
   },
   {
     "title": "JSNG - Ghost Blog Theme",
-    "imgRelPath": null,
+    "imgName": null,
     "description": "Handlebars-templated theme written for the Ghost blogging platform",
     "url": "https://www.jacobsngoodwin.com",
     "github": "https://github.com/Maxbrain0/jsng",
