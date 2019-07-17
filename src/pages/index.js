@@ -1,10 +1,13 @@
 import React from "react"
-import Layout from "../components/layout"
+import { graphql } from "gatsby"
+import Img from "gatsby-image"
 
-export default () => (
+import Layout from "../components/layout"
+import styles from "./index.module.scss"
+
+export default ({ data }) => (
   <Layout>
     <h1>Welcome</h1>
-    <p>Centered Image here</p>
 
     <p>
       I'm Jacob Goodwin, a Web Developer experienced in writing Single Page
@@ -12,10 +15,24 @@ export default () => (
       Nodejs, gRPC, and GraphQL.
     </p>
 
+    <div className={styles.profileImage}>
+      <Img
+        fixed={data.file.childImageSharp.fixed}
+        title="Porfile Image"
+        style={{
+          display: "block",
+          margin: "auto",
+          maxWidth: "256px",
+          maxHeight: "256px",
+        }}
+        imgStyle={{ borderRadius: "128px" }}
+      />
+    </div>
+
     <h2>Currently working on</h2>
     <p>Golang, gRPC, Flutter</p>
 
-    <h2>My story</h2>
+    <h1>My story</h1>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto maiores
       voluptas est, magnam enim minus quod rem non corporis. Omnis alias quae,
@@ -31,3 +48,28 @@ export default () => (
     </p>
   </Layout>
 )
+
+export const query = graphql`
+  query {
+    file(relativePath: { eq: "Profile.jpg" }) {
+      childImageSharp {
+        # Specify the image processing specifications right in the query.
+        # Makes it trivial to update as your page's design changes.
+        fixed(width: 512) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+    allSkillsJson {
+      edges {
+        node {
+          label
+          items {
+            skill
+            icon
+          }
+        }
+      }
+    }
+  }
+`
