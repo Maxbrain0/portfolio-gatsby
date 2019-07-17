@@ -4,15 +4,23 @@
     "items": [
       {
         "skill": "Javascript",
-        "icon": "js"
+        "icon": "javascript"
       },
       {
         "skill": "Go",
         "icon": "go"
       },
       {
+        "skill": "Typescript",
+        "icon": "typescript"
+      },
+      {
         "skill": "Python",
         "icon": "python"
+      },
+      {
+        "skill": "Dart",
+        "icon": "dart"
       }
     ]
   },
@@ -32,20 +40,72 @@
         "icon": "react"
       },
       {
+        "skill": "Parcel",
+        "icon": "parcel"
+      },
+      {
+        "skill": "ExpressJS",
+        "icon": "express"
+      },
+      {
+        "skill": "Gatsby",
+        "icon": "gatsby"
+      },
+      {
         "skill": "Prisma",
-        "icon": null
+        "icon": "prisma"
+      },
+      {
+        "skill": "Flutter",
+        "icon": "flutter"
+      },
+      {
+        "skill": "Jest",
+        "icon": "jest"
       }
     ]
   },
   {
-    "label": "Engineering",
+    "label": "Other",
     "items": [
+      {
+        "skill": "Antenna Design",
+        "icon": null
+      },
+      {
+        "skill": "Technical Account Management",
+        "icon": null
+      },
       {
         "skill": "Antenna Simulation",
         "icon": null
       },
       {
+        "skill": "Antenna Measurement",
+        "icon": null
+      },
+      {
         "skill": "CST",
+        "icon": null
+      },
+      {
+        "skill": "Technical Training",
+        "icon": null
+      },
+      {
+        "skill": "Pre-sales Engineering Support",
+        "icon": null
+      },
+      {
+        "skill": "MATLAB",
+        "icon": null
+      },
+      {
+        "skill": "ADS",
+        "icon": null
+      },
+      {
+        "skill": "LT Spice",
         "icon": null
       }
     ]

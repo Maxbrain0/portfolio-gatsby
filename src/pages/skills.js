@@ -6,7 +6,7 @@ import styles from "./resume.module.scss"
 
 export default ({ data }) => {
   const skills = data.allSkillsJson.edges.map(({ node }) => (
-    <SkillsCard skillData={node} />
+    <SkillsCard key={node.label} skillData={node} />
   ))
 
   return (

@@ -4,8 +4,12 @@ import React from "react"
 import BrandIcon from "../../assets/svg/brand.svg"
 import BulmaIcon from "../../assets/svg/bulma.svg"
 import D3Icon from "../../assets/svg/d3js-icon.svg"
+import DartIcon from "../../assets/svg/dartlang-icon.svg"
+import expressIcon from "../../assets/svg/expressjs-icon.svg"
+import FlutterIcon from "../../assets/svg/flutterio-icon.svg"
 import GatsbyIcon from "../../assets/svg/gatsbyjs-icon.svg"
 import GhostIcon from "../../assets/svg/ghost-tile.svg"
+import GoIcon from "../../assets/svg/golang-official.svg"
 import HandlebarsIcon from "../../assets/svg/handlebarsjs-icon.svg"
 import JavascriptIcon from "../../assets/svg/javascript.svg"
 import JestIcon from "../../assets/svg/jestjsio.svg"
@@ -13,6 +17,8 @@ import NpmIcon from "../../assets/svg/npmjs-ar21.svg"
 import NodeIcon from "../../assets/svg/nodejs-icon.svg"
 import NuxtIcon from "../../assets/svg/nuxt-square.svg"
 import ParcelIcon from "../../assets/svg/parceljs-rect.svg"
+import PrismaIcon from "../../assets/svg/prisma.svg"
+import PythonIcon from "../../assets/svg/python-icon.svg"
 import ReactIcon from "../../assets/svg/reactjs-icon.svg"
 import SassIcon from "../../assets/svg/sass-lang-icon.svg"
 import TypeScriptIcon from "../../assets/svg/typescriptlang-icon.svg"
@@ -24,8 +30,12 @@ const Icon = props => {
     brand: { icon: BrandIcon, url: null },
     bulma: { icon: BulmaIcon, url: "https://bulma.io/" },
     d3: { icon: D3Icon, url: "https://d3js.org/" },
+    dart: { icon: DartIcon, url: "https://dart.dev/" },
+    express: { icon: expressIcon, url: "https://expressjs.com/" },
+    flutter: { icon: FlutterIcon, url: "https://flutter.dev/" },
     gatsby: { icon: GatsbyIcon, url: "https://www.gatsbyjs.org/" },
     ghost: { icon: GhostIcon, url: "https://ghost.org/" },
+    go: { icon: GoIcon, url: "https://golang.org/" },
     handlebars: { icon: HandlebarsIcon, url: "https://handlebarsjs.com/" },
     javascript: {
       icon: JavascriptIcon,
@@ -39,6 +49,8 @@ const Icon = props => {
     npm: { icon: NpmIcon, url: "https://www.npmjs.com/" },
     nuxt: { icon: NuxtIcon, url: "https://nuxtjs.org/" },
     parcel: { icon: ParcelIcon, url: "https://parceljs.org/" },
+    prisma: { icon: PrismaIcon, url: "https://www.prisma.io/" },
+    python: { icon: PythonIcon, url: "https://www.python.org/" },
     react: { icon: ReactIcon, url: "https://reactjs.org/" },
     sass: { icon: SassIcon, url: "https://sass-lang.com/" },
     typescript: {
