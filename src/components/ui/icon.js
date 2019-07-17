@@ -49,10 +49,11 @@ const Icon = props => {
     vuetify: { icon: VuetifyIcon, url: "https://vuetifyjs.com/en/" },
   }
 
-  const IconName = components[props.type].icon
-  if (!IconName) {
+  if (!components[props.type]) {
     return null
   }
+
+  const IconName = components[props.type].icon
 
   if (!components[props.type].url) {
     return <IconName className={props.className} />
