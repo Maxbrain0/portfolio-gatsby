@@ -3,18 +3,24 @@
     "title": "Solutions Consultant Specialist / Senior Applications Engineer",
     "company": "Dassault Systems (formerly CST of America)",
     "dates": "April 2014 - July 2018",
-    "description": "Get bugged a lot by Apple and Amazon about technical issues."
+    "bullets": []
   },
   {
     "title": "Microwave and Sensors Engineer",
     "company": "Sandia National Labs",
     "dates": "March 2010 - April 2014",
-    "description": "Building rad stuff."
+    "bullets": []
   },
   {
     "title": "Master's Engineer",
     "company": "Norhtrop Grumman",
     "dates": "June 2009 - December 2009",
-    "description": "Antenna Measurements."
+    "bullets": []
+  },
+  {
+    "title": "Research Assistant",
+    "company": "iNANO, UC Davis",
+    "dates": "June 2007 - September 2008",
+    "bullets": []
   }
 ]
