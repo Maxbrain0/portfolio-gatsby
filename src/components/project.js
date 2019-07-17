@@ -31,7 +31,12 @@ const project = props => {
   ) : null
 
   const mediaUrl = props.project.mediaUrl ? (
-    <a href={props.project.mediaUrl} className={styles.photoVideo}>
+    <a
+      href={props.project.mediaUrl}
+      className={styles.photoVideo}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <FontAwesomeIcon icon={["fas", "photo-video"]} size="2x" />
     </a>
   ) : null
