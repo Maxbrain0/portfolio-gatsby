@@ -2,6 +2,7 @@
   {
     "title": "Solutions Consultant Specialist / Senior Applications Engineer",
     "company": "Dassault Systemes (formerly CST of America)",
+    "location": "Bay Area, California",
     "dates": "April 2014 - July 2018",
     "bullets": [
       "Technical Account Management - Provide direct technical support for two of CST's largest Silicon Valley accounts",
@@ -14,6 +15,7 @@
   {
     "title": "Microwave and Sensors Engineer",
     "company": "Sandia National Labs",
+    "location": "Livermore, California",
     "dates": "March 2010 - April 2014",
     "bullets": [
       "Antenna simulation, design, and measurement in complex fixtures",
@@ -25,6 +27,7 @@
   {
     "title": "Master's Engineer",
     "company": "Northrop Grumman",
+    "location": "North Highlands, California",
     "dates": "June 2009 - December 2009",
     "bullets": [
       "Indoor and outdoor far-field antenna measurements",
@@ -34,7 +37,8 @@
   },
   {
     "title": "Research Assistant",
-    "company": "iNANO, UC Davis",
+    "company": "iNANO",
+    "location": "UC Davis",
     "dates": "June 2007 - September 2008",
     "bullets": [
       "Optical reflectance and transmittance measurements of nano- and micro-structures deposited on economical substrates"
