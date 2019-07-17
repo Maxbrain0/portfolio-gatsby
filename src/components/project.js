@@ -1,36 +1,22 @@
 import React from "react"
-// import { useStaticQuery, graphql } from "gatsby"
-// import Img from "gatsby-image"
+import Img from "gatsby-image"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 import Icon from "./ui/icon"
 import styles from "./project.module.scss"
 
 const project = props => {
-  // const imgData = useStaticQuery(graphql`
-  //   query {
-  //     file(relativePath: { eq: "projects/SmithPlot.png" }) {
-  //       childImageSharp {
-  //         # Specify the image processing specifications right in the query.
-  //         # Makes it trivial to update as your page's design changes.
-  //         fluid(maxWidth: 600) {
-  //           ...GatsbyImageSharpFluid
-  //         }
-  //       }
-  //     }
-  //   }
-  // `)
-
-  // // only add an image if there if one
-  // const img = imgData.file ? (
-  //   <Img fluid={imgData.file.childImageSharp.fluid} />
-  // ) : null
-
   const icons = props.project.icons.map(icon => <Icon key={icon} type={icon} />)
 
+  const imgComponent = props.project.img ? (
+    <Img fluid={props.project.img} />
+  ) : null
+
+  console.log(imgComponent)
   return (
     <div className={`${styles.project} card`}>
       <div className={styles.title}>
+        {imgComponent}
         <h2>{props.project.title}</h2>
         <p>{props.project.description}</p>
       </div>
