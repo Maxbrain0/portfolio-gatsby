@@ -1,5 +1,9 @@
 [
   {
+    "path": "/skills/",
+    "label": "Skills"
+  },
+  {
     "path": "/portfolio/",
     "label": "Portfolio"
   },

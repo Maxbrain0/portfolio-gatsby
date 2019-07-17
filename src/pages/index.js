@@ -60,16 +60,5 @@ export const query = graphql`
         }
       }
     }
-    allSkillsJson {
-      edges {
-        node {
-          label
-          items {
-            skill
-            icon
-          }
-        }
-      }
-    }
   }
 `

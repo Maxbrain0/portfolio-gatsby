@@ -18,6 +18,7 @@
 
 .brand {
   display: flex;
+  justify-content: space-around;
   flex-direction: row;
   align-items: center;
 
@@ -28,6 +29,7 @@
 
 .nav-links {
   display: flex;
+  flex-wrap: wrap;
   @media screen and (max-width: $mobile-width) {
     margin-top: 2px; // only very small margin needed
   }
