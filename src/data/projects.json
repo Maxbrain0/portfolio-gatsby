@@ -1,7 +1,7 @@
 [
   {
     "title": "Smith Plot",
-    "imgName": "SmithPlot.png",
+    "mediaName": "SmithPlot.png",
     "description": "Single-page application written with D3.js and Vue for plotting and comparing RF-network measurement data",
     "url": "https://www.smithplot.com",
     "github": "https://github.com/Maxbrain0/smith-plot",
@@ -9,7 +9,7 @@
   },
   {
     "title": "RF-Network",
-    "imgName": "SmithPlot2.png",
+    "mediaName": null,
     "description": "Node module, written in Typescript, for parsing RF measurement data into a Network class",
     "url": "https://www.npmjs.com/package/rf-network",
     "github": "https://github.com/Maxbrain0/rf-network",
@@ -17,7 +17,7 @@
   },
   {
     "title": "Nuxt Ghost Starter",
-    "imgName": null,
+    "mediaName": null,
     "description": "A starter project for building a server-side rendered or statically generated site from Ghost blog data",
     "url": "https://blog.jacobsngoodwin.com",
     "github": "https://github.com/Maxbrain0/nuxt-ghost-starter",
@@ -25,7 +25,7 @@
   },
   {
     "title": "Gatsby Portfolio",
-    "imgName": null,
+    "mediaName": null,
     "description": "This fine portfolio page built with Gatsby JS",
     "url": "https://professional.jacobsngoodwin.com",
     "github": "https://github.com/Maxbrain0/portfolio-gatsby",
@@ -33,7 +33,7 @@
   },
   {
     "title": "JSNG - Ghost Blog Theme",
-    "imgName": null,
+    "mediaName": null,
     "description": "Handlebars-templated theme written for the Ghost blogging platform",
     "url": "https://www.jacobsngoodwin.com",
     "github": "https://github.com/Maxbrain0/jsng",

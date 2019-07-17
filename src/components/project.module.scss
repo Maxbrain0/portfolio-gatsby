@@ -1,6 +1,9 @@
 @import "../styles/variables";
 
 .project {
+  display: flex;
+  flex-direction: column;
+
   margin-bottom: 1.5em;
   padding: 0.75em;
 
@@ -10,9 +13,8 @@
 }
 
 .title {
-  img {
-    z-index: 0;
-  }
+  display: flex;
+  flex-direction: column;
 }
 
 .external-links {
@@ -21,9 +23,9 @@
     padding: 0 0.5em;
   }
   .link {
-    color: $color2;
+    color: $color1;
     &:hover {
-      color: adjust-color($color2, $alpha: -0.2);
+      color: adjust-color($color1, $alpha: -0.2);
       transition: color $hover-duration;
     }
   }
@@ -32,6 +34,14 @@
     color: #6e5494;
     &:hover {
       color: adjust-color(#6e5494, $alpha: -0.2);
+      transition: color $hover-duration;
+    }
+  }
+
+  .photo-video {
+    color: $color2;
+    &:hover {
+      color: adjust-color($color2, $alpha: -0.2);
       transition: color $hover-duration;
     }
   }

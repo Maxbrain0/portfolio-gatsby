@@ -7,13 +7,13 @@ import Project from "../components/project"
 export default ({ data }) => {
   const projectData = data.allProjectsJson.edges.map(({ projectNode }) => {
     const matchNode = data.allFile.edges.find(({ imgNode }) => {
-      return projectNode.imgName === imgNode.childImageSharp.fluid.originalName
+      return projectNode.mediaName === imgNode.base
     })
 
     if (!matchNode) {
-      projectNode.img = null
+      projectNode.mediaUrl = null
     } else {
-      projectNode.img = matchNode.imgNode.childImageSharp.fluid
+      projectNode.mediaUrl = matchNode.imgNode.publicURL
     }
 
     return projectNode
@@ -38,7 +38,7 @@ export const query = graphql`
         projectNode: node {
           title
           description
-          imgName
+          mediaName
           url
           github
           icons
@@ -48,12 +48,8 @@ export const query = graphql`
     allFile(filter: { relativeDirectory: { eq: "projects" } }) {
       edges {
         imgNode: node {
-          childImageSharp {
-            fluid(maxWidth: 800) {
-              ...GatsbyImageSharpFluid
-              originalName
-            }
-          }
+          base
+          publicURL
         }
       }
     }
