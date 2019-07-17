@@ -1,4 +1,16 @@
 {
   "prettier.eslintIntegration": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "cSpell.enabled": true,
+  "cSpell.enabledLanguageIds": ["javascriptreact", "json"],
+  "cSpell.words": [
+    "Dassault",
+    "JSNG",
+    "Nuxt",
+    "Prisma",
+    "Systemes",
+    "bulma",
+    "sandia",
+    "vuetify"
+  ]
 }
