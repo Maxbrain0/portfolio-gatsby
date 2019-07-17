@@ -13,7 +13,7 @@
     "description": "Node module, written in Typescript, for parsing RF measurement data into a Network class",
     "url": "https://www.npmjs.com/package/rf-network",
     "github": "https://github.com/Maxbrain0/rf-network",
-    "icons": ["typescript", "npm"]
+    "icons": ["typescript", "jest", "node"]
   },
   {
     "title": "Nuxt Ghost Starter",

@@ -8,7 +8,9 @@ import GatsbyIcon from "../../assets/svg/gatsbyjs-icon.svg"
 import GhostIcon from "../../assets/svg/ghost-tile.svg"
 import HandlebarsIcon from "../../assets/svg/handlebarsjs-icon.svg"
 import JavascriptIcon from "../../assets/svg/javascript.svg"
+import JestIcon from "../../assets/svg/jestjsio.svg"
 import NpmIcon from "../../assets/svg/npmjs-ar21.svg"
+import NodeIcon from "../../assets/svg/nodejs-icon.svg"
 import NuxtIcon from "../../assets/svg/nuxt-square.svg"
 import ParcelIcon from "../../assets/svg/parceljs-rect.svg"
 import ReactIcon from "../../assets/svg/reactjs-icon.svg"
@@ -29,6 +31,11 @@ const Icon = props => {
       icon: JavascriptIcon,
       url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     },
+    jest: {
+      icon: JestIcon,
+      url: "https://jestjs.io/",
+    },
+    node: { icon: NodeIcon, url: "https://nodejs.org/en/" },
     npm: { icon: NpmIcon, url: "https://www.npmjs.com/" },
     nuxt: { icon: NuxtIcon, url: "https://nuxtjs.org/" },
     parcel: { icon: ParcelIcon, url: "https://parceljs.org/" },
