@@ -1,12 +1,53 @@
 [
   {
-    "skill": "Javascript",
-    "level": 8,
-    "icon": "js"
+    "label": "Programming Languages",
+    "items": [
+      {
+        "skill": "Javascript",
+        "icon": "js"
+      },
+      {
+        "skill": "Go",
+        "icon": "go"
+      },
+      {
+        "skill": "Python",
+        "icon": "python"
+      }
+    ]
   },
   {
-    "skill": "Vue",
-    "level": 8,
-    "icon": "vue"
+    "label": "Tools and Frameworks",
+    "items": [
+      {
+        "skill": "Vue",
+        "icon": "vue"
+      },
+      {
+        "skill": "Nuxt",
+        "icon": "nuxt"
+      },
+      {
+        "skill": "React",
+        "icon": "react"
+      },
+      {
+        "skill": "Prisma",
+        "icon": null
+      }
+    ]
+  },
+  {
+    "label": "Engineering",
+    "items": [
+      {
+        "skill": "Antenna Simulation",
+        "icon": null
+      },
+      {
+        "skill": "CST",
+        "icon": null
+      }
+    ]
   }
 ]
