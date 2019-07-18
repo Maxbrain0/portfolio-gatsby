@@ -7,11 +7,15 @@
   align-items: center;
   padding: 1em 1em;
 
+  & a {
+    padding: 0em 0.5em;
+  }
+
   @media screen and (max-width: $mobile-width) {
     flex-direction: column;
     padding: 0.5em 0.5em;
     & a {
-      padding: 0em 0.5em;
+      padding: 0em 8px;
     }
   }
 }
@@ -32,6 +36,7 @@
   flex-wrap: wrap;
   @media screen and (max-width: $mobile-width) {
     margin-top: 2px; // only very small margin needed
+    justify-content: space-evenly;
   }
 }
 
