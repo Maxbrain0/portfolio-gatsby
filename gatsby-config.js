@@ -8,7 +8,7 @@ module.exports = {
   siteMetadata: {
     title: `Jacob Professional`,
     description: `This site features my professional interests, skills, and history.`,
-    author: `@Maxbrain0`,
+    author: `Jacob Goodwin`,
     url: `https://www.jacobgoodwin.me`,
   },
   plugins: [
@@ -49,7 +49,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Jacob Goodwin Professional`,
-        short_name: `JG Prof`,
+        short_name: `JG`,
         description:
           "This site features my professional interests, skills, and history.",
         start_url: `/`,
