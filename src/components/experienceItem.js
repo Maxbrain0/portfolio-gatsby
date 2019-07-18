@@ -9,7 +9,7 @@ const experienceItem = props => {
     </div>
   ))
   return (
-    <div className={`${styles.experienceItem}`}>
+    <div className={styles.experienceItem}>
       <h2 className={styles.title}>{props.experience.title}</h2>
       <h4 className={styles.company}>{props.experience.company}</h4>
       <div className={styles.dates}>

@@ -2,12 +2,17 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import ExperienceItem from "../components/experienceItem"
+import EducationItem from "../components/educationItem"
 
 import styles from "./resume.module.scss"
 
 export default ({ data }) => {
   const experience = data.allExperienceJson.edges.map(({ node }) => (
     <ExperienceItem key={node.title} experience={node} />
+  ))
+
+  const education = data.allEducationJson.edges.map(({ node }) => (
+    <EducationItem key={node.school} education={node} />
   ))
 
   return (
@@ -17,6 +22,7 @@ export default ({ data }) => {
         {experience}
 
         <h1>Education</h1>
+        {education}
       </div>
     </Layout>
   )

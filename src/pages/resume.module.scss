@@ -1,5 +1,8 @@
+@import "../styles/variables";
+
 .resume {
   h1 {
-    text-align: left;
+    font-size: 2.2rem;
+    color: $color1;
   }
 }
