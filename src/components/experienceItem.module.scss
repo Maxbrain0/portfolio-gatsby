@@ -1,0 +1,31 @@
+@import "../styles/variables";
+
+.experience-item {
+  margin-bottom: 2em;
+  .title {
+    margin-bottom: 8px;
+    color: $headerColor;
+  }
+
+  .company {
+    font-style: italic;
+    color: $color1;
+    margin-bottom: 0.25em;
+  }
+
+  .bullets {
+    margin-top: 0.5em;
+
+    .bullet {
+      display: grid;
+      grid-template-columns: 30px auto;
+      align-items: baseline;
+      line-height: 1.2;
+
+      .symbol {
+        font-size: 1.25em;
+        color: $color2;
+      }
+    }
+  }
+}

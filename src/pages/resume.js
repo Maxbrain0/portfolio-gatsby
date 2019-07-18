@@ -1,14 +1,20 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
+import ExperienceItem from "../components/experienceItem"
+
 import styles from "./resume.module.scss"
 
 export default ({ data }) => {
-  console.log(data)
+  const experience = data.allExperienceJson.edges.map(({ node }) => (
+    <ExperienceItem key={node.title} experience={node} />
+  ))
+
   return (
     <Layout>
       <div className={styles.resume}>
-        <h1>Work Experience</h1>
+        <h1>Experience</h1>
+        {experience}
 
         <h1>Education</h1>
       </div>
@@ -39,6 +45,7 @@ export const query = graphql`
           company
           dates
           bullets
+          location
         }
       }
     }
