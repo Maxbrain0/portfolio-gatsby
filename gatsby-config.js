@@ -5,6 +5,11 @@
  */
 
 module.exports = {
+  siteMetaData: {
+    title: `Jacob Professional`,
+    description: `This site features my professional interests, skills, and history.`,
+    author: `@Maxbrain0`,
+  },
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-transformer-json`,
@@ -41,10 +46,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `JG Professional`,
+        name: `Jacob Goodwin Professional`,
         short_name: `JG Prof`,
+        description:
+          "This site features my professional interests, skills, and history.",
         start_url: `/`,
-        lang: `en`,
         icon: `src/assets/icons/icon-512px-white.png`,
         background_color: `#ffffff`,
         theme_color: `#002d5b`,
