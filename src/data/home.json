@@ -1,5 +1,8 @@
 {
   "intro": "I'm Jacob Goodwin, a Web Developer experienced in writing Single Page Applications. I have also worked with backend technologies such as Go, Nodejs, gRPC, and GraphQL.",
   "current": "Golang, gRPC, Flutter",
-  "about": "A few years ago I started enjoying online programming courses as a post-work hobby. It started with Python and evolved into web development. I have since learned numerous technologies and have decided to turn my hobby into a new career! Please check out my skills and portfolio to see what I can do for you. I previously worked for as an electronics engineer, most recently for an electromagnetics simulation software company supporting several top Silicon Valley companies."
+  "about": [
+    "A few years ago I started enjoying online programming courses as a post-work hobby. It started with Python and evolved into web development. I have since learned numerous technologies and have decided to turn my hobby into a new career! Please check out my skills and portfolio to see what I can do for you.",
+    "I previously worked for as an electronics engineer, most recently for an electromagnetics simulation software company supporting several top Silicon Valley companies."
+  ]
 }

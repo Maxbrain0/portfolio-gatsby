@@ -6,34 +6,39 @@ import SEO from "../components/SEO"
 import Layout from "../components/layout"
 import styles from "./index.module.scss"
 
-export default ({ data }) => (
-  <Layout>
-    <SEO title="Home" description="A professional introduction" />
-    <h1>Welcome</h1>
+export default ({ data }) => {
+  const about = data.home.about.map((paragraph, index) => (
+    <p key={index}>{paragraph}</p>
+  ))
+  return (
+    <Layout>
+      <SEO title="Home" description="A professional introduction" />
+      <h1>Welcome</h1>
 
-    <p>{data.home.intro}</p>
+      <p>{data.home.intro}</p>
 
-    <div className={styles.profileImage}>
-      <Img
-        fixed={data.file.childImageSharp.fixed}
-        title="Porfile Image"
-        style={{
-          display: "block",
-          margin: "auto",
-          maxWidth: "256px",
-          maxHeight: "256px",
-        }}
-        imgStyle={{ borderRadius: "128px" }}
-      />
-    </div>
+      <div className={styles.profileImage}>
+        <Img
+          fixed={data.file.childImageSharp.fixed}
+          title="Porfile Image"
+          style={{
+            display: "block",
+            margin: "auto",
+            maxWidth: "256px",
+            maxHeight: "256px",
+          }}
+          imgStyle={{ borderRadius: "128px" }}
+        />
+      </div>
 
-    <h2>Currently working on</h2>
-    <p>{data.home.current}</p>
+      <h2>Currently working on</h2>
+      <p>{data.home.current}</p>
 
-    <h1>My story</h1>
-    <p>{data.home.about}</p>
-  </Layout>
-)
+      <h1>My story</h1>
+      {about}
+    </Layout>
+  )
+}
 
 export const query = graphql`
   query {
