@@ -1,25 +1,50 @@
 import React from "react"
+import { graphql } from "gatsby"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 import SEO from "../components/SEO"
 import Layout from "../components/layout"
 import styles from "./contact.module.scss"
 
-export default () => (
-  <Layout>
-    <SEO
-      title="Contact"
-      description="How to get ahold of me"
-      pathname="contact/"
-    />
-    <div>
-      <h1>Contact Me</h1>
-      <div className={styles.contact}>
-        <FontAwesomeIcon icon={["fas", "envelope"]} size="2x" color="#002d5b" />
-        <FontAwesomeIcon icon={["fab", "github"]} size="2x" color="#6e5494" />
-        <FontAwesomeIcon icon={["fab", "linkedin"]} size="2x" color="#0077b5" />
-        <FontAwesomeIcon icon={["fab", "twitter"]} size="2x" color="#1da1f2" />
-      </div>
+export default ({ data }) => {
+  const links = data.allContactJson.edges.map(({ node }) => (
+    <div className={styles.item}>
+      <a
+        href={node.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        key={node.label}
+      >
+        <FontAwesomeIcon icon={node.faIcon} size="2x" color={node.color} />
+      </a>
+      <span>{node.label}</span>
     </div>
-  </Layout>
-)
+  ))
+  return (
+    <Layout>
+      <SEO
+        title="Contact"
+        description="How to get ahold of me"
+        pathname="contact/"
+      />
+      <div>
+        <h1>Contact Me</h1>
+        <div className={styles.contactLinks}>{links}</div>
+      </div>
+    </Layout>
+  )
+}
+export const query = graphql`
+  query {
+    allContactJson {
+      edges {
+        node {
+          label
+          url
+          faIcon
+          color
+        }
+      }
+    }
+  }
+`

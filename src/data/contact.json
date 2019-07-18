@@ -1,27 +1,27 @@
 [
   {
-    "label": "Email",
+    "label": "jacob.goodwin@gmail.com",
     "url": "mailto:jacob.goodwin@gmail.com",
     "icon": null,
     "faIcon": ["fas", "envelope"],
     "color": "#002d5b"
   },
   {
-    "label": "Github",
+    "label": "Maxbrain0",
     "url": "https://github.com/Maxbrain0/",
     "icon": null,
     "faIcon": ["fab", "github"],
     "color": "#6e5494"
   },
   {
-    "label": "Github",
+    "label": "/in/jacobgoodwin1/",
     "url": "https://www.linkedin.com/in/jacobgoodwin1/",
     "icon": null,
     "faIcon": ["fab", "linkedin"],
     "color": "#0077b5"
   },
   {
-    "label": "Twitter",
+    "label": "@JacobSNGoodwin",
     "url": "https://twitter.com/JacobSNGoodwin",
     "icon": null,
     "faIcon": ["fab", "twitter"],
