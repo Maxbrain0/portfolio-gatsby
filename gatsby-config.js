@@ -9,6 +9,7 @@ module.exports = {
     title: `Jacob Professional`,
     description: `This site features my professional interests, skills, and history.`,
     author: `@Maxbrain0`,
+    url: `https://www.jacobgoodwin.me`,
   },
   plugins: [
     `gatsby-plugin-sass`,
