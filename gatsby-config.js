@@ -6,7 +6,8 @@
 
 module.exports = {
   siteMetadata: {
-    title: `Jacob Professional`,
+    title: `JG Professional`,
+    titleTemplate: "%s | JG Professional",
     description: `This site features my professional interests, skills, and history.`,
     author: `Jacob Goodwin`,
     url: `https://www.jacobgoodwin.me`,
@@ -52,6 +53,7 @@ module.exports = {
         short_name: `JG`,
         description:
           "This site features my professional interests, skills, and history.",
+        lang: `en`,
         start_url: `/`,
         icon: `src/assets/icons/icon-512px-white.png`,
         background_color: `#ffffff`,

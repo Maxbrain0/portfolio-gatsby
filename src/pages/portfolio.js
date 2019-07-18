@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 
+import SEO from "../components/SEO"
 import Layout from "../components/layout"
 import Project from "../components/project"
 
@@ -25,6 +26,11 @@ export default ({ data }) => {
 
   return (
     <Layout>
+      <SEO
+        title="Portfolio"
+        description="Some of my favorite projects"
+        pathname="portfolio/"
+      />
       <h1>Portfolio</h1>
       {projects}
     </Layout>

@@ -1,5 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
+
+import SEO from "../components/SEO"
 import Layout from "../components/layout"
 import ExperienceItem from "../components/experienceItem"
 import EducationItem from "../components/educationItem"
@@ -17,6 +19,11 @@ export default ({ data }) => {
 
   return (
     <Layout>
+      <SEO
+        title="Resume"
+        description="My work and education histoy"
+        pathname="resume/"
+      />
       <div className={styles.resume}>
         <h1>Experience</h1>
         {experience}

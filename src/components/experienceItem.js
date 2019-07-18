@@ -3,7 +3,7 @@ import styles from "./experienceItem.module.scss"
 
 const experienceItem = props => {
   const bullets = props.experience.bullets.map((bullet, index) => (
-    <div className={styles.bullet}>
+    <div key={index} className={styles.bullet}>
       <div className={styles.symbol}>&#8226;</div>
       <div key={index}>{bullet}</div>
     </div>

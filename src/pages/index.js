@@ -2,11 +2,13 @@ import React from "react"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
 
+import SEO from "../components/SEO"
 import Layout from "../components/layout"
 import styles from "./index.module.scss"
 
 export default ({ data }) => (
   <Layout>
+    <SEO title="Home" description="A professional introduction" />
     <h1>Welcome</h1>
 
     <p>
