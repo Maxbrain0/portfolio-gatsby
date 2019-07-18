@@ -7,7 +7,7 @@
 module.exports = {
   siteMetadata: {
     title: `JG Professional`,
-    titleTemplate: "%s | JG Professional",
+    titleTemplate: "%s - JG Professional",
     description: `This site features my professional interests, skills, and history.`,
     author: `Jacob Goodwin`,
     url: `https://www.jacobgoodwin.me`,
