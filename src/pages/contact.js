@@ -8,13 +8,8 @@ import styles from "./contact.module.scss"
 
 export default ({ data }) => {
   const links = data.allContactJson.edges.map(({ node }) => (
-    <div className={styles.item}>
-      <a
-        href={node.url}
-        target="_blank"
-        rel="noopener noreferrer"
-        key={node.label}
-      >
+    <div key={node.label} className={styles.item}>
+      <a href={node.url} target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={node.faIcon} size="2x" color={node.color} />
       </a>
       <span>{node.label}</span>
