@@ -19,14 +19,8 @@ export default ({ data }) => {
 
       <div className={styles.profileImage}>
         <Img
-          fixed={data.file.childImageSharp.fixed}
+          fluid={data.file.childImageSharp.fluid}
           title="Porfile Image"
-          style={{
-            display: "block",
-            margin: "auto",
-            maxWidth: "256px",
-            maxHeight: "256px",
-          }}
           imgStyle={{ borderRadius: "128px" }}
         />
       </div>
@@ -46,8 +40,8 @@ export const query = graphql`
       childImageSharp {
         # Specify the image processing specifications right in the query.
         # Makes it trivial to update as your page's design changes.
-        fixed(width: 500) {
-          ...GatsbyImageSharpFixed
+        fluid(maxWidth: 500, quality: 100) {
+          ...GatsbyImageSharpFluid
         }
       }
     }
