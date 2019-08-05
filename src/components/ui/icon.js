@@ -5,14 +5,17 @@ import BrandIcon from "../../assets/svg/brand.svg"
 import BulmaIcon from "../../assets/svg/bulma.svg"
 import D3Icon from "../../assets/svg/d3js-icon.svg"
 import DartIcon from "../../assets/svg/dartlang-icon.svg"
-import expressIcon from "../../assets/svg/expressjs-icon.svg"
+import EchoIcon from "../../assets/svg/echo-logo.svg"
+import ExpressIcon from "../../assets/svg/expressjs-icon.svg"
 import FlutterIcon from "../../assets/svg/flutterio-icon.svg"
 import GatsbyIcon from "../../assets/svg/gatsbyjs-icon.svg"
 import GhostIcon from "../../assets/svg/ghost-tile.svg"
+import GCIcon from "../../assets/svg/google-cloud.svg"
 import GoIcon from "../../assets/svg/golang-official.svg"
 import HandlebarsIcon from "../../assets/svg/handlebarsjs-icon.svg"
 import JavascriptIcon from "../../assets/svg/javascript.svg"
 import JestIcon from "../../assets/svg/jestjsio.svg"
+import MongoIcon from "../../assets/svg/mongodb.svg"
 import NpmIcon from "../../assets/svg/npmjs-ar21.svg"
 import NodeIcon from "../../assets/svg/nodejs-icon.svg"
 import NuxtIcon from "../../assets/svg/nuxt-square.svg"
@@ -31,10 +34,12 @@ const Icon = props => {
     bulma: { icon: BulmaIcon, url: "https://bulma.io/" },
     d3: { icon: D3Icon, url: "https://d3js.org/" },
     dart: { icon: DartIcon, url: "https://dart.dev/" },
-    express: { icon: expressIcon, url: "https://expressjs.com/" },
+    echo: { icon: EchoIcon, url: "https://echo.labstack.com/" },
+    express: { icon: ExpressIcon, url: "https://expressjs.com/" },
     flutter: { icon: FlutterIcon, url: "https://flutter.dev/" },
     gatsby: { icon: GatsbyIcon, url: "https://www.gatsbyjs.org/" },
     ghost: { icon: GhostIcon, url: "https://ghost.org/" },
+    gc: { icon: GCIcon, url: "https://cloud.google.com/" },
     go: { icon: GoIcon, url: "https://golang.org/" },
     handlebars: { icon: HandlebarsIcon, url: "https://handlebarsjs.com/" },
     javascript: {
@@ -45,6 +50,7 @@ const Icon = props => {
       icon: JestIcon,
       url: "https://jestjs.io/",
     },
+    mongo: { icon: MongoIcon, url: "https://www.mongodb.com/" },
     node: { icon: NodeIcon, url: "https://nodejs.org/en/" },
     npm: { icon: NpmIcon, url: "https://www.npmjs.com/" },
     nuxt: { icon: NuxtIcon, url: "https://nuxtjs.org/" },
