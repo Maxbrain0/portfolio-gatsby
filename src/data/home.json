@@ -1,8 +1,8 @@
 {
-  "intro": "I'm Jacob Goodwin, a Web Developer experienced in writing Single Page Applications. I have also worked with backend technologies such as Go, Nodejs, gRPC, and GraphQL.",
-  "current": "Golang, gRPC, Flutter",
+  "intro": "I'm Jacob Goodwin, a Web Developer experienced in writing single page applications and backend services with languages and tools including Vue, React, Go, Nodejs, Akka, gRPC, and GraphQL. Check out my portfolio for a list of projects and technologies I work with!",
+  "current": "Akka Streams in Scala",
   "about": [
-    "A few years ago I started enjoying online programming courses as a post-work hobby. It started with Python and evolved into web development. I have since learned numerous technologies and have decided to turn my hobby into a new career! Please check out my skills and portfolio to see what I can do for you.",
-    "I previously worked for as an electronics engineer, most recently for an electromagnetics simulation software company supporting several top Silicon Valley companies."
+    "A few years ago, I started enjoying online programming courses as a post-work hobby. I have since learned numerous technologies and turned my hobby into a career!",
+    "I previously worked as an electronics engineer, most recently for an electromagnetics simulation software company where I used my antenna design and simulation expertise to support and consult several top Silicon Valley companies."
   ]
 }
