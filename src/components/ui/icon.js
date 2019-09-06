@@ -1,6 +1,7 @@
 import React from "react"
 
 // icon imports
+import AkkaIcon from "../../assets/svg/akka-icon.svg"
 import BrandIcon from "../../assets/svg/brand.svg"
 import BulmaIcon from "../../assets/svg/bulma.svg"
 import D3Icon from "../../assets/svg/d3js-icon.svg"
@@ -24,12 +25,14 @@ import PrismaIcon from "../../assets/svg/prisma.svg"
 import PythonIcon from "../../assets/svg/python-icon.svg"
 import ReactIcon from "../../assets/svg/reactjs-icon.svg"
 import SassIcon from "../../assets/svg/sass-lang-icon.svg"
+import ScalaIcon from "../../assets/svg/scala-lang-icon.svg"
 import TypeScriptIcon from "../../assets/svg/typescriptlang-icon.svg"
 import VueIcon from "../../assets/svg/vue.svg"
 import VuetifyIcon from "../../assets/svg/vuetify.svg"
 
 const Icon = props => {
   const components = {
+    akka: { icon: AkkaIcon, url: "https://akka.io/" },
     brand: { icon: BrandIcon, url: null },
     bulma: { icon: BulmaIcon, url: "https://bulma.io/" },
     d3: { icon: D3Icon, url: "https://d3js.org/" },
@@ -59,6 +62,7 @@ const Icon = props => {
     python: { icon: PythonIcon, url: "https://www.python.org/" },
     react: { icon: ReactIcon, url: "https://reactjs.org/" },
     sass: { icon: SassIcon, url: "https://sass-lang.com/" },
+    scala: { icon: ScalaIcon, url: "https://www.scala-lang.org/" },
     typescript: {
       icon: TypeScriptIcon,
       url: "https://www.typescriptlang.org/",
