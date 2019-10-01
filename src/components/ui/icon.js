@@ -78,7 +78,7 @@ const Icon = props => {
   const IconName = components[props.type].icon
 
   if (!components[props.type].url) {
-    return <IconName className={props.className} />
+    return <IconName />
   }
 
   // get passed down classes
@@ -88,7 +88,7 @@ const Icon = props => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      <IconName className={props.className} />
+      <IconName />
     </a>
   )
 }
