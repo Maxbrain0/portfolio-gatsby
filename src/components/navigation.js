@@ -6,7 +6,7 @@ import NavLink from "./ui/navlink"
 import styles from "./navigation.module.scss"
 import { colorFromIndex } from "../util/color"
 
-const navigation = props => {
+export default props => {
   const data = useStaticQuery(graphql`
     query {
       allNavLinksJson {
@@ -52,5 +52,3 @@ const navigation = props => {
     </nav>
   )
 }
-
-export default navigation
