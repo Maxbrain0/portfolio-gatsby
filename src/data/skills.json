@@ -44,12 +44,16 @@
         "icon": "react"
       },
       {
-        "skill": "Parcel",
-        "icon": "parcel"
+        "skill": "Google Cloud",
+        "icon": "gc"
       },
       {
         "skill": "ExpressJS",
         "icon": "express"
+      },
+      {
+        "skill": "Parcel",
+        "icon": "parcel"
       },
       {
         "skill": "Gatsby",
