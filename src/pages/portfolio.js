@@ -21,7 +21,7 @@ export default ({ data }) => {
   })
 
   const projects = projectData.map(project => (
-    <Project key={project.url} project={project} />
+    <Project key={project.title} project={project} />
   ))
 
   return (
