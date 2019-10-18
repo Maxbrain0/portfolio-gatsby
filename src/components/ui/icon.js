@@ -4,6 +4,7 @@ import React from "react"
 import AkkaIcon from "../../assets/svg/akka-icon.svg"
 import BrandIcon from "../../assets/svg/brand.svg"
 import BulmaIcon from "../../assets/svg/bulma.svg"
+import CsharpIcon from "../../assets/svg/csharp.svg"
 import D3Icon from "../../assets/svg/d3js-icon.svg"
 import DartIcon from "../../assets/svg/dartlang-icon.svg"
 import EchoIcon from "../../assets/svg/echo-logo.svg"
@@ -35,6 +36,10 @@ const Icon = props => {
     akka: { icon: AkkaIcon, url: "https://akka.io/" },
     brand: { icon: BrandIcon, url: null },
     bulma: { icon: BulmaIcon, url: "https://bulma.io/" },
+    csharp: {
+      icon: CsharpIcon,
+      url: "https://docs.microsoft.com/en-us/dotnet/csharp/",
+    },
     d3: { icon: D3Icon, url: "https://d3js.org/" },
     dart: { icon: DartIcon, url: "https://dart.dev/" },
     echo: { icon: EchoIcon, url: "https://echo.labstack.com/" },
