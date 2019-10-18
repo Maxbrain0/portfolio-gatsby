@@ -19,6 +19,10 @@
         "icon": "scala"
       },
       {
+        "skill": "Csharp",
+        "icon": "csharp"
+      },
+      {
         "skill": "Python",
         "icon": "python"
       },
