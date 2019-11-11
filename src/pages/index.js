@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 import SEO from "../components/SEO"
 import Layout from "../components/layout"
@@ -10,6 +11,21 @@ export default ({ data }) => {
   const about = data.home.about.map((paragraph, index) => (
     <p key={index}>{paragraph}</p>
   ))
+
+  const current = data.home.current.map((item, index) => (
+    <div key={index}>
+      {item.description}
+      {item.url ? (
+        <>
+          <span> - </span>
+          <a href={item.url} target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={["fas", "external-link-alt"]} size="1x" />
+          </a>
+        </>
+      ) : null}
+    </div>
+  ))
+
   return (
     <Layout>
       <SEO title="Intro" description="A professional introduction" />
@@ -26,7 +42,7 @@ export default ({ data }) => {
       </div>
 
       <h2>Currently working on</h2>
-      <p>{data.home.current}</p>
+      <p>{current}</p>
 
       <h1>My story</h1>
       {about}
@@ -47,7 +63,10 @@ export const query = graphql`
     }
     home: dataJson {
       intro
-      current
+      current {
+        description
+        url
+      }
       about
     }
   }
