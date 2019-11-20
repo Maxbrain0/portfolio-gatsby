@@ -1,5 +1,4 @@
 {
-  "prettier.eslintIntegration": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "cSpell.enabled": true,
   "cSpell.enabledLanguageIds": ["javascriptreact", "json"],
