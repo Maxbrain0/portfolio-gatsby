@@ -11,6 +11,7 @@ module.exports = {
     description: `This site features my professional interests, skills, and history.`,
     author: `Jacob Goodwin`,
     url: `https://www.jacobgoodwin.me`,
+    image: `/image/metatag.png`,
   },
   plugins: [
     `gatsby-plugin-sass`,
