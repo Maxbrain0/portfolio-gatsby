@@ -48,12 +48,20 @@
         "icon": "react"
       },
       {
+        "skill": "AWS",
+        "icon": "aws"
+      },
+      {
         "skill": "Google Cloud",
         "icon": "gc"
       },
       {
         "skill": "ExpressJS",
         "icon": "express"
+      },
+      {
+        "skill": "GraphQL",
+        "icon": "graphql"
       },
       {
         "skill": "Parcel",

@@ -2,12 +2,16 @@
   "intro": "I'm Jacob Goodwin, a Web Developer experienced in writing single page applications and backend services with languages and tools including Vue, React, Go, Nodejs, Akka, gRPC, and GraphQL. Check out my portfolio for a list of projects and technologies I work with!",
   "current": [
     {
-      "description": "IATAFinder gRPC go server",
-      "url": ["https://github.com/abelgoodwin1988/iata-finder"]
+      "description": "Golang GraphQL API with React Typescript Admin Panel",
+      "url": ["https://github.com/Maxbrain0/react-go-graphql"]
     },
     {
-      "description": "React with Typescript",
+      "description": "AWS Associate Developer Certification",
       "url": null
+    },
+    {
+      "description": "IATAFinder gRPC go server",
+      "url": ["https://github.com/abelgoodwin1988/iata-finder"]
     }
   ],
   "about": [
