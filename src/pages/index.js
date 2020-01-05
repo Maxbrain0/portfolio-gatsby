@@ -28,7 +28,7 @@ export default ({ data }) => {
 
   return (
     <Layout>
-      <SEO title="Intro" description="A professional introduction" />
+      <SEO title="Home" description="A professional introduction" />
       <h1>Welcome</h1>
 
       <p>{data.home.intro}</p>

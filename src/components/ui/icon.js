@@ -2,6 +2,7 @@ import React from "react"
 
 // icon imports
 import AkkaIcon from "../../assets/svg/akka-icon.svg"
+import AWSIcon from "../../assets/svg/aws.svg"
 import BrandIcon from "../../assets/svg/brand.svg"
 import BulmaIcon from "../../assets/svg/bulma.svg"
 import CsharpIcon from "../../assets/svg/csharp.svg"
@@ -14,6 +15,7 @@ import GatsbyIcon from "../../assets/svg/gatsbyjs-icon.svg"
 import GhostIcon from "../../assets/svg/ghost-tile.svg"
 import GCIcon from "../../assets/svg/google-cloud.svg"
 import GoIcon from "../../assets/svg/golang-official.svg"
+import GraphQLIcon from "../../assets/svg/graphql.svg"
 import HandlebarsIcon from "../../assets/svg/handlebarsjs-icon.svg"
 import JavascriptIcon from "../../assets/svg/javascript.svg"
 import JestIcon from "../../assets/svg/jestjsio.svg"
@@ -34,6 +36,7 @@ import VuetifyIcon from "../../assets/svg/vuetify.svg"
 const Icon = props => {
   const components = {
     akka: { icon: AkkaIcon, url: "https://akka.io/" },
+    aws: { icon: AWSIcon, url: "https://aws.amazon.com/" },
     brand: { icon: BrandIcon, url: null },
     bulma: { icon: BulmaIcon, url: "https://bulma.io/" },
     csharp: {
@@ -49,6 +52,7 @@ const Icon = props => {
     ghost: { icon: GhostIcon, url: "https://ghost.org/" },
     gc: { icon: GCIcon, url: "https://cloud.google.com/" },
     go: { icon: GoIcon, url: "https://golang.org/" },
+    graphql: { icon: GraphQLIcon, url: "https://graphql.org/" },
     handlebars: { icon: HandlebarsIcon, url: "https://handlebarsjs.com/" },
     javascript: {
       icon: JavascriptIcon,

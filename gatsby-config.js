@@ -11,6 +11,7 @@ module.exports = {
     description: `This site features my professional interests, skills, and history.`,
     author: `Jacob Goodwin`,
     url: `https://www.jacobgoodwin.me`,
+    image: `/image/metatag.png`,
   },
   plugins: [
     `gatsby-plugin-sass`,
@@ -59,6 +60,12 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#002d5b`,
         display: `standalone`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-61442484-3",
       },
     },
     `gatsby-plugin-offline`,
