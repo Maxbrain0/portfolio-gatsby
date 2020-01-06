@@ -33,16 +33,29 @@ export default ({ data }) => {
 
       <p>{data.home.intro}</p>
 
+      <div className={styles.awsLogo}>
+        <a
+          href="https://www.certmetrics.com/amazon/public/badge.aspx?i=2&t=c&d=2020-01-03&ci=AWS01166952"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Img
+            fluid={data.amazonLogo.childImageSharp.fluid}
+            title="AWS certification"
+          />
+        </a>
+      </div>
+
       <div className={styles.profileImage}>
         <Img
-          fluid={data.file.childImageSharp.fluid}
-          title="Porfile Image"
+          fluid={data.profileImage.childImageSharp.fluid}
+          title="Profile Image"
           imgStyle={{ borderRadius: "128px" }}
         />
       </div>
 
       <h2>Currently working on</h2>
-      <p>{current}</p>
+      {current}
 
       <h1>My story</h1>
       {about}
@@ -52,10 +65,17 @@ export default ({ data }) => {
 
 export const query = graphql`
   query {
-    file(relativePath: { eq: "Profile.jpg" }) {
+    profileImage: file(relativePath: { eq: "Profile.jpg" }) {
       childImageSharp {
         # Specify the image processing specifications right in the query.
         # Makes it trivial to update as your page's design changes.
+        fluid(maxWidth: 500, quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    amazonLogo: file(relativePath: { eq: "AWScert.png" }) {
+      childImageSharp {
         fluid(maxWidth: 500, quality: 100) {
           ...GatsbyImageSharpFluid
         }

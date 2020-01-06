@@ -1,9 +1,17 @@
 @import "../styles/variables";
 
 .profile-image {
-  margin-bottom: 2em;
   max-width: 256px;
   margin: 0 auto 1.5em auto;
+
+  @media screen and (max-width: $mobile-width) {
+    max-width: 50%;
+  }
+}
+
+.aws-logo {
+  max-width: 256px;
+  margin: 0 auto 2em auto;
 
   @media screen and (max-width: $mobile-width) {
     max-width: 50%;
