@@ -64,6 +64,14 @@
         "icon": "graphql"
       },
       {
+        "skill": "Postgresql",
+        "icon": "postgres"
+      },
+      {
+        "skill": "Redis",
+        "icon": "redis"
+      },
+      {
         "skill": "Parcel",
         "icon": "parcel"
       },

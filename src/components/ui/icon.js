@@ -24,9 +24,11 @@ import NpmIcon from "../../assets/svg/npmjs-ar21.svg"
 import NodeIcon from "../../assets/svg/nodejs-icon.svg"
 import NuxtIcon from "../../assets/svg/nuxt-square.svg"
 import ParcelIcon from "../../assets/svg/parceljs-rect.svg"
+import PostgresIcon from "../../assets/svg/postgresql.svg"
 import PrismaIcon from "../../assets/svg/prisma.svg"
 import PythonIcon from "../../assets/svg/python-icon.svg"
 import ReactIcon from "../../assets/svg/reactjs-icon.svg"
+import RedisIcon from "../../assets/svg/redis.svg"
 import SassIcon from "../../assets/svg/sass-lang-icon.svg"
 import ScalaIcon from "../../assets/svg/scala-lang-icon.svg"
 import TypeScriptIcon from "../../assets/svg/typescriptlang-icon.svg"
@@ -67,9 +69,11 @@ const Icon = props => {
     npm: { icon: NpmIcon, url: "https://www.npmjs.com/" },
     nuxt: { icon: NuxtIcon, url: "https://nuxtjs.org/" },
     parcel: { icon: ParcelIcon, url: "https://parceljs.org/" },
+    postgres: { icon: PostgresIcon, url: "https://www.postgresql.org/" },
     prisma: { icon: PrismaIcon, url: "https://www.prisma.io/" },
     python: { icon: PythonIcon, url: "https://www.python.org/" },
     react: { icon: ReactIcon, url: "https://reactjs.org/" },
+    redis: { icon: RedisIcon, url: "https://redis.io/" },
     sass: { icon: SassIcon, url: "https://sass-lang.com/" },
     scala: { icon: ScalaIcon, url: "https://www.scala-lang.org/" },
     typescript: {
