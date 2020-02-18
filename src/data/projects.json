@@ -4,7 +4,7 @@
     "mediaName": "SmithPlot.png",
     "description": "Single-page application written with D3.js and Vue for plotting and comparing RF-network measurement data",
     "url": "https://www.smithplot.com",
-    "github": "https://github.com/Maxbrain0/smith-plot",
+    "github": "https://github.com/JacobSNGoodwin/smith-plot",
     "icons": ["vue", "d3", "vuetify"]
   },
   {
@@ -12,7 +12,7 @@
     "mediaName": null,
     "description": "A starter project for building a server-side rendered or statically generated site from Ghost blog data",
     "url": "https://blog.jacobsngoodwin.com",
-    "github": "https://github.com/Maxbrain0/nuxt-ghost-starter",
+    "github": "https://github.com/JacobSNGoodwin/nuxt-ghost-starter",
     "icons": ["nuxt", "vue", "ghost", "bulma"]
   },
   {
@@ -20,7 +20,7 @@
     "mediaName": null,
     "description": "A work-in-progress full-stack application for managing employees and product inventory. The application is built with modern React and Apollo Client on the front end. The back end is a GraphQL server built with Go and leveraging Postgres for data and Redis as a session cache.",
     "url": null,
-    "github": "https://github.com/Maxbrain0/react-go-graphql",
+    "github": "https://github.com/JacobSNGoodwin/react-go-graphql",
     "icons": [
       "go",
       "react",
@@ -36,7 +36,7 @@
     "mediaName": null,
     "description": "A REST API built with the Echo Framework for Golang. It implements MongoDB and Google Cloud Storage",
     "url": null,
-    "github": "https://github.com/Maxbrain0/echo_mongo",
+    "github": "https://github.com/JacobSNGoodwin/echo_mongo",
     "icons": ["go", "echo", "gc", "mongo"]
   },
   {
@@ -44,7 +44,7 @@
     "mediaName": null,
     "description": "An Akka Actor System Representing an IOT system. The repository contains a publishing client which publishes messages to PubSub telling the actor system to record or upload a file to Google Cloud for a particular IOT device. Then the subscription application receives the message from PubSub, and prompts that device to either record its data or to upload its data to Google Cloud Storage.",
     "url": null,
-    "github": "https://github.com/Maxbrain0/uploadStreamDemo",
+    "github": "https://github.com/JacobSNGoodwin/uploadStreamDemo",
     "icons": ["scala", "akka", "gc"]
   },
   {
@@ -52,23 +52,23 @@
     "mediaName": null,
     "description": "Node module, written in Typescript, for parsing RF measurement data into a Network class",
     "url": "https://www.npmjs.com/package/rf-network",
-    "github": "https://github.com/Maxbrain0/rf-network",
+    "github": "https://github.com/JacobSNGoodwin/rf-network",
     "icons": ["typescript", "jest", "node"]
   },
   {
     "title": "Gatsby Portfolio",
     "mediaName": null,
     "description": "This fine portfolio page built with Gatsby JS",
-    "url": "https://professional.jacobsngoodwin.com",
-    "github": "https://github.com/Maxbrain0/portfolio-gatsby",
+    "url": "https://jacobgoodwin.me",
+    "github": "https://github.com/JacobSNGoodwin/portfolio-gatsby",
     "icons": ["gatsby", "react", "sass"]
   },
   {
     "title": "JSNG - Ghost Blog Theme",
     "mediaName": null,
     "description": "Handlebars-templated theme written for the Ghost blogging platform",
-    "url": "https://www.jacobsngoodwin.com",
-    "github": "https://github.com/Maxbrain0/jsng",
+    "url": "https://blog.jacobgoodwin.me",
+    "github": "https://github.com/JacobSNGoodwin/jsng",
     "icons": ["ghost", "handlebars", "sass", "parcel"]
   }
 ]
