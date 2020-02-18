@@ -11,7 +11,7 @@
     "title": "Nuxt Ghost Starter",
     "mediaName": null,
     "description": "A starter project for building a server-side rendered or statically generated site from Ghost blog data",
-    "url": "https://blog.jacobsngoodwin.com",
+    "url": "https://blog.jacobgoodwin.me",
     "github": "https://github.com/JacobSNGoodwin/nuxt-ghost-starter",
     "icons": ["nuxt", "vue", "ghost", "bulma"]
   },
@@ -67,7 +67,6 @@
     "title": "JSNG - Ghost Blog Theme",
     "mediaName": null,
     "description": "Handlebars-templated theme written for the Ghost blogging platform",
-    "url": "https://blog.jacobgoodwin.me",
     "github": "https://github.com/JacobSNGoodwin/jsng",
     "icons": ["ghost", "handlebars", "sass", "parcel"]
   }
