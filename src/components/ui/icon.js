@@ -20,6 +20,7 @@ import HandlebarsIcon from "../../assets/svg/handlebarsjs-icon.svg"
 import JavascriptIcon from "../../assets/svg/javascript.svg"
 import JestIcon from "../../assets/svg/jestjsio.svg"
 import MongoIcon from "../../assets/svg/mongodb.svg"
+import NextJSIcon from "../../assets/svg/nextjs.svg"
 import NpmIcon from "../../assets/svg/npmjs-ar21.svg"
 import NodeIcon from "../../assets/svg/nodejs-icon.svg"
 import NuxtIcon from "../../assets/svg/nuxt-square.svg"
@@ -31,6 +32,7 @@ import ReactIcon from "../../assets/svg/reactjs-icon.svg"
 import RedisIcon from "../../assets/svg/redis.svg"
 import SassIcon from "../../assets/svg/sass-lang-icon.svg"
 import ScalaIcon from "../../assets/svg/scala-lang-icon.svg"
+import TypeORMIcon from "../../assets/svg/typeorm.svg"
 import TypeScriptIcon from "../../assets/svg/typescriptlang-icon.svg"
 import VueIcon from "../../assets/svg/vue.svg"
 import VuetifyIcon from "../../assets/svg/vuetify.svg"
@@ -65,6 +67,7 @@ const Icon = props => {
       url: "https://jestjs.io/",
     },
     mongo: { icon: MongoIcon, url: "https://www.mongodb.com/" },
+    nextjs: { icon: NextJSIcon, url: "https://nextjs.org/" },
     node: { icon: NodeIcon, url: "https://nodejs.org/en/" },
     npm: { icon: NpmIcon, url: "https://www.npmjs.com/" },
     nuxt: { icon: NuxtIcon, url: "https://nuxtjs.org/" },
@@ -76,6 +79,7 @@ const Icon = props => {
     redis: { icon: RedisIcon, url: "https://redis.io/" },
     sass: { icon: SassIcon, url: "https://sass-lang.com/" },
     scala: { icon: ScalaIcon, url: "https://www.scala-lang.org/" },
+    typeorm: { icon: TypeORMIcon, url: "https://typeorm.io/#/" },
     typescript: {
       icon: TypeScriptIcon,
       url: "https://www.typescriptlang.org/",

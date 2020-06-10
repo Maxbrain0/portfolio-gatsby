@@ -1,5 +1,13 @@
 [
   {
+    "title": "IESD Spark",
+    "mediaName": null,
+    "description": "Student and teacher portal for Inland Empire Software Developers organization",
+    "url": null,
+    "github": "https://github.com/inland-empire-software-development/spark",
+    "icons": ["react", "nextjs", "typescript", "typeorm", "postgres"]
+  },
+  {
     "title": "Smith Plot",
     "mediaName": "SmithPlot.png",
     "description": "Single-page application written with D3.js and Vue for plotting and comparing RF-network measurement data",
