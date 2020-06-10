@@ -17,10 +17,15 @@
     "fontawesome",
     "fortawesome",
     "gmail",
+    "iesd",
     "jacobgoodwin",
     "linkedin",
     "mailto",
+    "nextjs",
+    "postgres",
+    "postgresql",
     "sandia",
+    "typeorm",
     "vuetify"
   ]
 }
