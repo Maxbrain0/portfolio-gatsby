@@ -23,6 +23,7 @@
     "mailto",
     "nextjs",
     "postgres",
+    "postgresql",
     "sandia",
     "typeorm",
     "vuetify"

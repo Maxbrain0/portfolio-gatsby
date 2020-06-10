@@ -48,6 +48,14 @@
         "icon": "react"
       },
       {
+        "skill": "Flutter",
+        "icon": "flutter"
+      },
+      {
+        "skill": null,
+        "icon": "nextjs"
+      },
+      {
         "skill": "AWS",
         "icon": "aws"
       },
@@ -86,10 +94,6 @@
       {
         "skill": "Prisma",
         "icon": "prisma"
-      },
-      {
-        "skill": "Flutter",
-        "icon": "flutter"
       },
       {
         "skill": "Jest",
