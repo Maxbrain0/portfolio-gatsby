@@ -33,9 +33,17 @@ export default ({ data }) => {
 
       <p>{data.home.intro}</p>
 
+      <div className={styles.profileImage}>
+        <Img
+          fluid={data.profileImage.childImageSharp.fluid}
+          title="Profile Image"
+          imgStyle={{ borderRadius: "128px" }}
+        />
+      </div>
+
       <div className={styles.awsLogo}>
         <a
-          href="https://www.certmetrics.com/amazon/public/badge.aspx?i=2&t=c&d=2020-01-03&ci=AWS01166952"
+          href="https://www.youracclaim.com/badges/16cf89d8-1475-4a0c-aaba-44081bc5135f/public_url"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -44,14 +52,6 @@ export default ({ data }) => {
             title="AWS certification"
           />
         </a>
-      </div>
-
-      <div className={styles.profileImage}>
-        <Img
-          fluid={data.profileImage.childImageSharp.fluid}
-          title="Profile Image"
-          imgStyle={{ borderRadius: "128px" }}
-        />
       </div>
 
       <h2>Currently working on</h2>
