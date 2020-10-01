@@ -2,16 +2,10 @@
   "intro": "I'm Jacob Goodwin, a Web Developer experienced in writing single page applications and backend services with languages and tools including Vue, React, Go, Nodejs, Akka, gRPC, and GraphQL. I am also an AWS Certified Developer Associate. Check out my portfolio for a list of projects and technologies I work with!",
   "current": [
     {
-      "description": "IESD Spark",
-      "url": ["https://github.com/inland-empire-software-development/spark"]
-    },
-    {
-      "description": "Golang GraphQL API with React Typescript Admin Panel",
-      "url": ["https://github.com/Maxbrain0/react-go-graphql"]
-    },
-    {
-      "description": "Party Relay - Mobile game build with Flutter",
-      "url": null
+      "description": "Full Stack Memorization App Tutorial",
+      "url": [
+        "https://www.youtube.com/playlist?list=PLnrGn4P6C4P6yasdEJnEUhueTjCGXGuFe"
+      ]
     }
   ],
   "about": [
