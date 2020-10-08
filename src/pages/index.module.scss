@@ -9,15 +9,21 @@
   }
 }
 
-.aws-logo {
-  max-width: 196px;
-  margin: 0 auto 2em auto;
+.badges {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 
-  @media screen and (max-width: $mobile-width) {
-    max-width: 50%;
+  div {
+    margin: 0 1em 0 1em;
   }
 }
 
 h1 {
   margin-top: 1em;
+}
+
+h2 {
+  margin-top: 0.5em;
 }

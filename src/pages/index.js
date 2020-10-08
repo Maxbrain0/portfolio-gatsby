@@ -41,17 +41,34 @@ export default ({ data }) => {
         />
       </div>
 
-      <div className={styles.awsLogo}>
-        <a
-          href="https://www.youracclaim.com/badges/16cf89d8-1475-4a0c-aaba-44081bc5135f/public_url"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Img
-            fluid={data.amazonLogo.childImageSharp.fluid}
-            title="AWS certification"
-          />
-        </a>
+      <div className={styles.badges}>
+        <div>
+          <a
+            href="https://www.youracclaim.com/badges/16cf89d8-1475-4a0c-aaba-44081bc5135f/public_url"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Img
+              fixed={data.amazonLogo.childImageSharp.fixed}
+              title="AWS certification"
+              style={{ margin: "auto" }}
+            />
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://dev.to/jacobsngoodwin"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg"
+              alt="Jacob Goodwin's DEV Profile"
+              height="128"
+              width="128"
+            />
+          </a>
+        </div>
       </div>
 
       <h2>Currently working on</h2>
@@ -76,8 +93,8 @@ export const query = graphql`
     }
     amazonLogo: file(relativePath: { eq: "AWScert.png" }) {
       childImageSharp {
-        fluid(maxWidth: 500, quality: 100) {
-          ...GatsbyImageSharpFluid
+        fixed(width: 128, height: 128) {
+          ...GatsbyImageSharpFixed
         }
       }
     }
