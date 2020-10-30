@@ -8,12 +8,14 @@ import BulmaIcon from "../../assets/svg/bulma.svg"
 import CsharpIcon from "../../assets/svg/csharp.svg"
 import D3Icon from "../../assets/svg/d3js-icon.svg"
 import DartIcon from "../../assets/svg/dartlang-icon.svg"
+import DockerIcon from "../../assets/svg/docker.svg"
 import EchoIcon from "../../assets/svg/echo-logo.svg"
 import ExpressIcon from "../../assets/svg/expressjs-icon.svg"
 import FlutterIcon from "../../assets/svg/flutterio-icon.svg"
 import GatsbyIcon from "../../assets/svg/gatsbyjs-icon.svg"
 import GhostIcon from "../../assets/svg/ghost-tile.svg"
 import GCIcon from "../../assets/svg/google-cloud.svg"
+import GinIcon from "../../assets/svg/gin.svg"
 import GoIcon from "../../assets/svg/golang-official.svg"
 import GraphQLIcon from "../../assets/svg/graphql.svg"
 import HandlebarsIcon from "../../assets/svg/handlebarsjs-icon.svg"
@@ -32,12 +34,13 @@ import ReactIcon from "../../assets/svg/reactjs-icon.svg"
 import RedisIcon from "../../assets/svg/redis.svg"
 import SassIcon from "../../assets/svg/sass-lang-icon.svg"
 import ScalaIcon from "../../assets/svg/scala-lang-icon.svg"
+import TraefikIcon from "../../assets/svg/traefik.svg"
 import TypeORMIcon from "../../assets/svg/typeorm.svg"
 import TypeScriptIcon from "../../assets/svg/typescriptlang-icon.svg"
 import VueIcon from "../../assets/svg/vue.svg"
 import VuetifyIcon from "../../assets/svg/vuetify.svg"
 
-const Icon = props => {
+const Icon = (props) => {
   const components = {
     akka: { icon: AkkaIcon, url: "https://akka.io/" },
     aws: { icon: AWSIcon, url: "https://aws.amazon.com/" },
@@ -49,10 +52,12 @@ const Icon = props => {
     },
     d3: { icon: D3Icon, url: "https://d3js.org/" },
     dart: { icon: DartIcon, url: "https://dart.dev/" },
+    docker: { icon: DockerIcon, url: "https://www.docker.com/" },
     echo: { icon: EchoIcon, url: "https://echo.labstack.com/" },
     express: { icon: ExpressIcon, url: "https://expressjs.com/" },
     flutter: { icon: FlutterIcon, url: "https://flutter.dev/" },
     gatsby: { icon: GatsbyIcon, url: "https://www.gatsbyjs.org/" },
+    gin: { icon: GinIcon, url: "https://github.com/gin-gonic/gin" },
     ghost: { icon: GhostIcon, url: "https://ghost.org/" },
     gc: { icon: GCIcon, url: "https://cloud.google.com/" },
     go: { icon: GoIcon, url: "https://golang.org/" },
@@ -79,6 +84,7 @@ const Icon = props => {
     redis: { icon: RedisIcon, url: "https://redis.io/" },
     sass: { icon: SassIcon, url: "https://sass-lang.com/" },
     scala: { icon: ScalaIcon, url: "https://www.scala-lang.org/" },
+    traefik: { icon: TraefikIcon, url: "https://traefik.io/" },
     typeorm: { icon: TypeORMIcon, url: "https://typeorm.io/#/" },
     typescript: {
       icon: TypeScriptIcon,

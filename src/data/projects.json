@@ -1,5 +1,34 @@
 [
   {
+    "title": "Wordmem",
+    "mediaName": null,
+    "description": "Completed full-stack memorization application that is the basis for my current Youtube and dev.to tutorial. The application features multiple services and events-driven communication between them with Google Cloud PubSub. The app runs behind a Traefik reverse proxy with all services running in Docker Containers.",
+    "url": "https://dev.to/jacobsngoodwin/series/9052",
+    "github": "https://github.com/JacobSNGoodwin/wordmem",
+    "icons": [
+      "react",
+      "go",
+      "vue",
+      "node",
+      "typescript",
+      "gc",
+      "docker",
+      "redis",
+      "postgres",
+      "traefik",
+      "gin",
+      "bulma"
+    ]
+  },
+  {
+    "title": "Nuxt Ghost Starter",
+    "mediaName": null,
+    "description": "A starter project for building a server-side rendered or statically generated site from Ghost blog data",
+    "url": "https://blog.jacobgoodwin.me",
+    "github": "https://github.com/JacobSNGoodwin/nuxt-ghost-starter",
+    "icons": ["nuxt", "vue", "ghost", "bulma"]
+  },
+  {
     "title": "IESD Spark",
     "mediaName": null,
     "description": "Student and teacher portal for Inland Empire Software Developers organization",
@@ -14,14 +43,6 @@
     "url": "https://www.smithplot.com",
     "github": "https://github.com/JacobSNGoodwin/smith-plot",
     "icons": ["vue", "d3", "vuetify"]
-  },
-  {
-    "title": "Nuxt Ghost Starter",
-    "mediaName": null,
-    "description": "A starter project for building a server-side rendered or statically generated site from Ghost blog data",
-    "url": "https://blog.jacobgoodwin.me",
-    "github": "https://github.com/JacobSNGoodwin/nuxt-ghost-starter",
-    "icons": ["nuxt", "vue", "ghost", "bulma"]
   },
   {
     "title": "Store Employee and Inventory Manager",
