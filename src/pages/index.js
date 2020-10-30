@@ -69,6 +69,19 @@ export default ({ data }) => {
             />
           </a>
         </div>
+        <div>
+          <a
+            href="https://youtube.com/channel/UCcE2YngHoargpdjIzkCNY2Q"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Img
+              fixed={data.youtubeLogo.childImageSharp.fixed}
+              title="YouTube Coding Channel"
+              style={{ margin: "auto" }}
+            />
+          </a>
+        </div>
       </div>
 
       <h2>Currently working on</h2>
@@ -92,6 +105,13 @@ export const query = graphql`
       }
     }
     amazonLogo: file(relativePath: { eq: "AWScert.png" }) {
+      childImageSharp {
+        fixed(width: 128, height: 128) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+    youtubeLogo: file(relativePath: { eq: "Youtube.png" }) {
       childImageSharp {
         fixed(width: 128, height: 128) {
           ...GatsbyImageSharpFixed
